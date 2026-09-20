@@ -1,6 +1,6 @@
 # SPEC 01 — Portafolio frontend en Vue
 
-**Estado:** Draft
+**Estado:** Implementado
 **Depende de:** ninguna
 **Fecha:** 2026-09-20
 **Objetivo:** Portar las 4 páginas HTML de `portafolio_argonza/` (Portafolio, Blog, Artículo, Nuevo artículo) al proyecto Vue `portafolio-roan/`, con Tailwind, tema oscuro azul y datos estáticos tipados.
