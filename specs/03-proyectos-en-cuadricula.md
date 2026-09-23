@@ -1,6 +1,6 @@
 # SPEC 03 — Proyectos en cuadrícula de tarjetas
 
-**Estado:** Aprobado
+**Estado:** Implementado
 **Depende de:** SPEC 01, SPEC 02
 **Fecha:** 2026-09-22
 **Objetivo:** Reemplazar el layout de filas de `ProjectsSection` (una fila por proyecto) por una cuadrícula de tarjetas en filas y columnas, con el mismo lenguaje visual que "Todas las entradas" en `BlogView`.
