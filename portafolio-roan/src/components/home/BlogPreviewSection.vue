@@ -15,9 +15,10 @@ const latest = articles.slice(0, 2)
     </template>
     <div class="grid grid-cols-2 gap-7 max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8">
       <RouterLink
-        v-for="article in latest"
+        v-for="(article, i) in latest"
         :key="article.slug"
         :to="`/blog/${article.slug}`"
+        v-reveal="i"
         class="block border border-line-card bg-card px-[26px] pt-7 pb-[30px] text-inherit hover:border-accent/55 hover:text-inherit"
       >
         <div class="flex gap-3 text-[11px] tracking-[.14em] text-dim uppercase">

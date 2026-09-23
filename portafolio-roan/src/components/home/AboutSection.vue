@@ -50,8 +50,9 @@ const timeline = [
         </h2>
         <div class="mt-auto grid gap-px border border-line-card bg-line-card">
           <div
-            v-for="fact in facts"
+            v-for="(fact, i) in facts"
             :key="fact.label"
+            v-reveal="i"
             class="flex items-baseline justify-between gap-4 bg-card px-[22px] py-5"
           >
             <div class="flex items-center gap-2.5">
@@ -68,6 +69,7 @@ const timeline = [
           <div
             v-for="(job, i) in timeline"
             :key="job.period"
+            v-reveal="i"
             class="grid grid-cols-[130px_1fr] gap-6 border-t border-line-card py-[22px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-2"
             :class="{ 'border-b': i === timeline.length - 1 }"
           >

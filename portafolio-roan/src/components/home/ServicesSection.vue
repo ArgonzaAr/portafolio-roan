@@ -8,8 +8,9 @@ import ServiceIcon from './ServiceIcon.vue'
   <SectionWrapper id="servicios" surface eyebrow="Servicios" title="Lo que puedo construir para ti">
     <div class="grid grid-cols-5 gap-px border border-line-card bg-line-card max-desk:grid-cols-2">
       <div
-        v-for="service in services"
+        v-for="(service, i) in services"
         :key="service.id"
+        v-reveal="i"
         class="min-h-[230px] bg-card px-6 pt-[30px] pb-[34px] hover:bg-card-hover"
       >
         <div class="mb-6 flex justify-center">

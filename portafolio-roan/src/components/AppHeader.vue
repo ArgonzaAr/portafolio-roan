@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import BaseButton from './BaseButton.vue'
+import LogoMark from './icons/LogoMark.vue'
 
 const route = useRoute()
 
@@ -19,7 +20,8 @@ const links = computed(() => [
     <div
       class="mx-auto flex h-[74px] max-w-[1240px] items-center gap-10 px-10 max-desk:block max-desk:h-auto max-desk:px-5 max-desk:py-3.5"
     >
-      <RouterLink to="/#home" class="flex items-baseline gap-2.5 text-fg hover:text-fg">
+      <RouterLink to="/#home" class="flex items-center gap-2 text-fg hover:text-fg">
+        <LogoMark :size="22" />
         <span class="text-[19px] font-extrabold tracking-[-.02em]">Angel Argonza</span>
       </RouterLink>
       <nav

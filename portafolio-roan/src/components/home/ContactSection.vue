@@ -11,7 +11,7 @@ const fieldClass = 'border border-line-input bg-bg px-3.5 py-[13px] text-[14.5px
     <div
       class="grid grid-cols-[.85fr_1.15fr] items-center gap-[72px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8"
     >
-      <div>
+      <div v-reveal="0">
         <div class="mb-[18px] text-[11px] font-bold tracking-[.2em] text-eyebrow uppercase">
           Contacto
         </div>
@@ -21,7 +21,7 @@ const fieldClass = 'border border-line-input bg-bg px-3.5 py-[13px] text-[14.5px
           ¿Tienes un proyecto en mente?
         </h2>
       </div>
-      <div class="border border-line-card bg-card px-[34px] pt-[34px] pb-9">
+      <div v-reveal="1" class="border border-line-card bg-card px-[34px] pt-[34px] pb-9">
         <div
           class="grid grid-cols-2 gap-x-5 gap-y-[18px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8"
         >

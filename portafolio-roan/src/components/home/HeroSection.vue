@@ -12,12 +12,12 @@ const stats = [
 <template>
   <section id="home" class="relative overflow-hidden border-b border-line">
     <div
-      class="pointer-events-none absolute -top-40 -right-[120px] size-[620px] bg-[radial-gradient(circle,rgba(31,111,235,.28),transparent_65%)]"
+      class="pointer-events-none absolute -top-20 -right-[120px] size-[620px] bg-[radial-gradient(circle,rgba(31,111,235,.28),transparent_65%)]"
     ></div>
     <div
       class="relative mx-auto grid max-w-[1240px] grid-cols-[1.15fr_.85fr] items-center gap-[72px] px-10 pt-24 pb-[88px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8 max-desk:px-5 max-desk:py-14"
     >
-      <div>
+      <div v-reveal="0">
         <div class="mb-[26px] flex items-center gap-3">
           <span class="h-0.5 w-[34px] bg-accent-strong"></span>
           <span class="text-[11px] font-bold tracking-[.2em] text-eyebrow uppercase">
@@ -55,7 +55,7 @@ const stats = [
           </div>
         </div>
       </div>
-      <div class="relative">
+      <div v-reveal="1" class="relative">
         <div
           class="absolute top-[22px] -right-[22px] -bottom-[22px] left-[22px] border-2 border-accent-strong max-desk:hidden"
         ></div>

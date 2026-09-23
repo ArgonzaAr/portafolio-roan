@@ -14,6 +14,7 @@ import { projects } from '@/data'
       <div
         v-for="(project, i) in projects"
         :key="project.id"
+        v-reveal="i"
         class="grid grid-cols-[96px_1.2fr_1fr] items-center gap-9 bg-card px-8 py-[34px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8"
       >
         <div class="text-[40px] font-extrabold tracking-[-.04em] text-num">
