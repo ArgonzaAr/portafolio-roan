@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const spacingClass = {
-  default: 'py-24',
-  tight: 'py-[84px]',
-  compact: 'py-[52px]',
+  default: 'tablet:py-16 desk:py-24',
+  tight: 'tablet:py-16 desk:py-[84px]',
+  compact: 'desk:py-[52px]',
 }
 
 withDefaults(
@@ -21,12 +21,12 @@ withDefaults(
 <template>
   <section :id="id" :class="[{ 'border-b border-line': bordered, 'bg-surface': surface }]">
     <div
-      class="mx-auto max-w-[1240px] px-10 max-desk:px-5 max-desk:py-14"
+      class="mx-auto max-w-[1240px] px-5 py-14 tablet:px-8 desk:px-10"
       :class="spacingClass[spacing]"
     >
       <div
         v-if="eyebrow || title || $slots.aside"
-        class="mb-12 flex items-end justify-between gap-10 max-desk:flex-col max-desk:items-start max-desk:gap-4"
+        class="mb-12 flex flex-col items-start gap-4 desk:flex-row desk:items-end desk:justify-between desk:gap-10"
       >
         <div>
           <div
@@ -37,7 +37,7 @@ withDefaults(
           </div>
           <h2
             v-if="title"
-            class="m-0 text-[42px] leading-[1.08] font-extrabold tracking-[-.03em] text-white max-desk:text-[30px]"
+            class="m-0 text-[30px] leading-[1.08] font-extrabold tracking-[-.03em] text-white tablet:text-[36px] desk:text-[42px]"
           >
             {{ title }}
           </h2>

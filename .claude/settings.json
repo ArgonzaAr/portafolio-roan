@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath // empty' | { read -r f; case \"$f\" in *portafolio-roan/src/*.vue|*portafolio-roan/src/*.ts|*portafolio-roan/src/*.js|*portafolio-roan/src/*.css) /Users/roan/workspace/claude/portafolio_argonza/portafolio-roan/node_modules/.bin/prettier --write \"$f\" ;; esac; } 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}

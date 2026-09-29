@@ -22,7 +22,7 @@ const technologies = [
       Tecnologías con las que trabajo
     </div>
     <div
-      class="grid grid-cols-10 gap-4 max-desk:grid-cols-3 max-desk:gap-x-3 max-desk:gap-y-[26px]"
+      class="grid grid-cols-3 gap-x-3 gap-y-[26px] tablet:grid-cols-5 desk:grid-cols-10 desk:gap-4"
     >
       <div
         v-for="(tech, i) in technologies"

@@ -10,7 +10,7 @@ import { projects } from '@/data'
         Contenido de ejemplo — pendiente de reemplazar
       </span>
     </template>
-    <div class="grid grid-cols-3 gap-[22px] max-desk:grid-cols-2">
+    <div class="grid grid-cols-[minmax(0,1fr)] gap-[22px] tablet:grid-cols-2 desk:grid-cols-3">
       <component
         :is="project.url ? 'a' : 'div'"
         v-for="(project, i) in projects"

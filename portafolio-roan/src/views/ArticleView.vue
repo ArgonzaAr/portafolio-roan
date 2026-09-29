@@ -22,16 +22,18 @@ const related = computed(() => articles.filter((a) => a.slug !== article.value?.
         <div
           class="pointer-events-none absolute -top-[200px] -right-[120px] size-[600px] bg-[radial-gradient(circle,rgba(31,111,235,.22),transparent_65%)]"
         ></div>
-        <div class="relative mx-auto max-w-[820px] px-10 pt-14 pb-[30px] max-desk:px-5">
+        <div class="relative mx-auto max-w-[820px] px-5 pt-14 pb-[30px] tablet:px-8 desk:px-10">
           <RouterLink to="/blog" class="text-[13px] font-semibold text-label">
             ← Volver al blog
           </RouterLink>
-          <div class="mt-8 flex gap-3.5 text-[11px] tracking-[.14em] text-dim uppercase">
+          <div
+            class="mt-8 flex flex-wrap gap-x-3.5 gap-y-1 text-[11px] tracking-[.14em] text-dim uppercase"
+          >
             <span class="text-accent">{{ article.category }}</span>
             <span>{{ article.date }} · {{ article.readingMinutes }} min</span>
           </div>
           <h1
-            class="m-0 mt-[18px] text-[48px] leading-[1.06] font-extrabold tracking-[-.035em] text-balance text-white max-desk:text-[clamp(34px,10vw,46px)]"
+            class="m-0 mt-[18px] text-[clamp(34px,10vw,46px)] leading-[1.06] font-extrabold tracking-[-.035em] text-balance text-white desk:text-[48px]"
           >
             {{ article.title }}
           </h1>
@@ -44,7 +46,7 @@ const related = computed(() => articles.filter((a) => a.slug !== article.value?.
           </div>
         </div>
       </section>
-      <div class="mx-auto max-w-[820px] px-10 max-desk:px-5">
+      <div class="mx-auto max-w-[820px] px-5 tablet:px-8 desk:px-10">
         <article class="pt-[5px] pb-20">
           <ArticleBlockView
             v-for="(block, i) in article.blocks"
@@ -56,18 +58,22 @@ const related = computed(() => articles.filter((a) => a.slug !== article.value?.
         </article>
       </div>
       <section class="border-t border-line bg-surface">
-        <div class="mx-auto max-w-[1240px] px-10 pt-16 pb-20 max-desk:px-5">
+        <div class="mx-auto max-w-[1240px] px-5 pt-16 pb-20 tablet:px-8 desk:px-10">
           <div class="mb-6 text-[11px] font-bold tracking-[.2em] text-dim uppercase">
             Sigue leyendo
           </div>
-          <div class="grid grid-cols-3 gap-[22px] max-desk:grid-cols-2">
+          <div
+            class="grid grid-cols-[minmax(0,1fr)] gap-[22px] tablet:grid-cols-2 desk:grid-cols-3"
+          >
             <RouterLink
               v-for="item in related"
               :key="item.slug"
               :to="`/blog/${item.slug}`"
               class="flex flex-col gap-3 border border-line-card bg-card p-[26px] text-inherit hover:border-accent/55 hover:bg-card-hover hover:text-inherit"
             >
-              <div class="flex gap-3 text-[11px] tracking-[.14em] text-dim uppercase">
+              <div
+                class="flex flex-wrap gap-x-3 gap-y-1 text-[11px] tracking-[.14em] text-dim uppercase"
+              >
                 <span class="text-accent">{{ item.category }}</span>
                 <span>{{ item.date }} · {{ item.readingMinutes }} min</span>
               </div>

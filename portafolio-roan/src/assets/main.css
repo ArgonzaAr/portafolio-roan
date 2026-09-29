@@ -30,7 +30,8 @@
   --font-sans: 'Archivo', system-ui, sans-serif;
   --font-mono: ui-monospace, Menlo, monospace;
 
-  /* Escritorio desde 861px; móvil es <=860px (usar max-desk:) */
+  /* Mobile-first: estilos base = móvil (<640px), tablet: desde 640px, desk: desde 861px */
+  --breakpoint-tablet: 640px;
   --breakpoint-desk: 861px;
 }
 

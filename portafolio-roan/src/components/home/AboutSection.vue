@@ -37,18 +37,20 @@ const timeline = [
 <template>
   <SectionWrapper id="sobre-mi">
     <div
-      class="grid grid-cols-[.9fr_1.1fr] items-stretch gap-20 max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8"
+      class="grid grid-cols-[minmax(0,1fr)] items-stretch gap-8 tablet:gap-12 desk:grid-cols-[.9fr_1.1fr] desk:gap-20"
     >
       <div class="flex flex-col">
         <div class="mb-[18px] text-[11px] font-bold tracking-[.2em] text-eyebrow uppercase">
           Sobre mí
         </div>
         <h2
-          class="m-0 text-[42px] leading-[1.08] font-extrabold tracking-[-.03em] text-white max-desk:text-[30px]"
+          class="m-0 text-[30px] leading-[1.08] font-extrabold tracking-[-.03em] text-white tablet:text-[36px] desk:text-[42px]"
         >
           Soluciones que se miden en resultados
         </h2>
-        <div class="mt-auto grid gap-px border border-line-card bg-line-card">
+        <div
+          class="mt-8 grid gap-px border border-line-card bg-line-card tablet:grid-cols-2 desk:mt-auto desk:grid-cols-1"
+        >
           <div
             v-for="(fact, i) in facts"
             :key="fact.label"
@@ -70,7 +72,7 @@ const timeline = [
             v-for="(job, i) in timeline"
             :key="job.period"
             v-reveal="i"
-            class="grid grid-cols-[130px_1fr] gap-6 border-t border-line-card py-[22px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-2"
+            class="grid grid-cols-[minmax(0,1fr)] gap-2 border-t border-line-card py-[22px] tablet:grid-cols-[130px_1fr] tablet:gap-6"
             :class="{ 'border-b': i === timeline.length - 1 }"
           >
             <div class="pt-[3px] text-[12.5px] text-label">{{ job.period }}</div>

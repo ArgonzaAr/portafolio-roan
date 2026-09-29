@@ -1,12 +1,13 @@
 # Portafolio Angel Argonza
 
-Portafolio personal de Angel Argonza: sitio con tema oscuro azul, blog y un editor de artículos. La app Vue vive en [`portafolio-roan/`](portafolio-roan/) y es el port de las páginas HTML originales de [`portafolio_argonza/`](portafolio_argonza/), descrito en [`specs/01-portafolio-frontend-vue.md`](specs/01-portafolio-frontend-vue.md).
+Portafolio personal de Angel Argonza: sitio con tema oscuro azul, blog y un editor de artículos. La app Vue vive en [`portafolio-roan/`](portafolio-roan/) y es el port de las páginas HTML originales del diseño, descrito en [`specs/01-portafolio-frontend-vue.md`](specs/01-portafolio-frontend-vue.md).
+
+El trabajo en curso para adaptar todo el proyecto a una arquitectura responsive mobile-first (móvil / tablet / escritorio) está descrito en [`specs/04-responsive-mobile-first.md`](specs/04-responsive-mobile-first.md) (en Borrador, aún no implementado).
 
 ## Estructura del repositorio
 
 ```
 ├── portafolio-roan/     # App Vue (código fuente, tests y build)
-├── portafolio_argonza/  # HTML originales (referencia del diseño)
 └── specs/               # Especificaciones del proyecto
 ```
 
@@ -35,6 +36,7 @@ cd portafolio-roan
 | `npm run build`      | Comprueba tipos y genera el build en `dist/`    |
 | `npm run preview`    | Sirve el build de producción                    |
 | `npm run type-check` | Comprueba tipos con `vue-tsc`                   |
+| `npm run lint`       | Corre ESLint con `--fix`                        |
 | `npm run test:unit`  | Ejecuta los tests con Vitest                    |
 | `npm run format`     | Formatea `src/` con Prettier                    |
 

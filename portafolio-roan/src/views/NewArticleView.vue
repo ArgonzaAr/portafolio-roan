@@ -41,7 +41,7 @@ const secondaryButton =
   <main>
     <div class="border-b border-line bg-surface">
       <div
-        class="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-6 px-10 py-[26px] max-desk:flex-col max-desk:items-start max-desk:gap-4 max-desk:px-5"
+        class="mx-auto flex max-w-[1240px] flex-col flex-wrap items-start gap-4 px-5 py-[26px] tablet:px-8 desk:flex-row desk:items-center desk:justify-between desk:gap-6 desk:px-10"
       >
         <div>
           <div class="mb-3 flex items-center gap-3">
@@ -55,7 +55,7 @@ const secondaryButton =
           </h1>
         </div>
         <div
-          class="flex items-center gap-3 max-desk:w-full max-desk:flex-wrap max-desk:*:min-w-0 max-desk:*:flex-[1_1_100%]"
+          class="flex w-full flex-wrap items-center gap-3 *:min-w-0 *:flex-[1_1_100%] tablet:*:flex-[0_1_auto] desk:w-auto desk:flex-nowrap"
         >
           <span class="text-[12.5px] text-label">
             {{ blocks.length }} bloques · {{ wordCount }} palabras
@@ -65,7 +65,7 @@ const secondaryButton =
             :to="`/blog/${previewSlug}`"
             variant="outline"
             size="sm"
-            class="px-[22px] py-3"
+            class="px-[22px] py-3 text-center"
           >
             Previsualizar
           </BaseButton>
@@ -75,10 +75,13 @@ const secondaryButton =
     </div>
 
     <div
-      class="mx-auto grid max-w-[1240px] grid-cols-[minmax(0,1fr)_320px] items-start gap-10 px-10 pt-11 pb-[88px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8 max-desk:px-5"
+      class="mx-auto grid max-w-[1240px] grid-cols-[minmax(0,1fr)] items-start gap-8 px-5 pt-11 pb-[88px] tablet:px-8 desk:grid-cols-[minmax(0,1fr)_320px] desk:gap-10 desk:px-10"
     >
       <div class="min-w-0">
-        <div class="px-[30px] pt-[30px] pb-8" :class="cardClass">
+        <div
+          class="px-5 pt-6 pb-7 tablet:px-[30px] tablet:pt-[30px] tablet:pb-8"
+          :class="cardClass"
+        >
           <div class="mb-[22px]" :class="panelTitleClass">Encabezado</div>
           <div class="grid grid-cols-[minmax(0,1fr)] gap-5">
             <div class="flex flex-col gap-2">
@@ -87,7 +90,7 @@ const secondaryButton =
                 id="na-titulo"
                 type="text"
                 placeholder="Cómo diseñar una automatización que sí se pueda auditar"
-                class="w-full min-w-0 border border-line-input bg-bg px-4 py-[15px] text-[22px] font-bold tracking-[-.02em] text-white"
+                class="w-full min-w-0 border border-line-input bg-bg px-4 py-[15px] text-lg font-bold tracking-[-.02em] text-white tablet:text-[22px]"
               />
             </div>
             <div class="flex flex-col gap-2">
@@ -104,10 +107,10 @@ const secondaryButton =
 
         <div class="mt-6" :class="cardClass">
           <div
-            class="flex flex-wrap items-center justify-between gap-5 border-b border-line-card px-[30px] py-[22px]"
+            class="flex flex-wrap items-center justify-between gap-5 border-b border-line-card px-5 py-[22px] tablet:px-[30px]"
           >
             <div :class="panelTitleClass">Cuerpo del artículo</div>
-            <div class="flex flex-wrap gap-2 max-desk:w-full">
+            <div class="flex w-full flex-wrap gap-2 desk:w-auto">
               <button
                 v-for="meta in blockTypes"
                 :key="meta.type"
@@ -121,7 +124,7 @@ const secondaryButton =
               </button>
             </div>
           </div>
-          <div class="flex flex-col gap-[18px] px-[30px] pt-[26px] pb-[30px]">
+          <div class="flex flex-col gap-[18px] px-5 pt-[26px] pb-[30px] tablet:px-[30px]">
             <EditorBlock
               v-for="(block, i) in blocks"
               :key="block.id"
@@ -136,8 +139,10 @@ const secondaryButton =
         </div>
       </div>
 
-      <aside class="sticky top-[98px] flex flex-col gap-6 max-desk:static max-desk:w-auto">
-        <div class="p-[26px]" :class="cardClass">
+      <aside
+        class="flex flex-col gap-6 tablet:grid tablet:grid-cols-2 tablet:items-start desk:sticky desk:top-[98px] desk:flex"
+      >
+        <div class="p-5 tablet:row-span-2 tablet:p-[26px]" :class="cardClass">
           <div class="mb-5" :class="panelTitleClass">Publicación</div>
           <div class="grid grid-cols-[minmax(0,1fr)] gap-[18px]">
             <div class="flex flex-col gap-2">
@@ -148,7 +153,7 @@ const secondaryButton =
                 </option>
               </select>
             </div>
-            <div class="grid grid-cols-2 gap-3.5 max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8">
+            <div class="grid grid-cols-2 gap-3.5">
               <div class="flex flex-col gap-2">
                 <label for="na-fecha" :class="labelClass">Fecha</label>
                 <input id="na-fecha" type="text" placeholder="Ago 2026" :class="fieldClass" />
@@ -186,7 +191,7 @@ const secondaryButton =
           </div>
         </div>
 
-        <div class="p-[26px]" :class="cardClass">
+        <div class="p-5 tablet:p-[26px]" :class="cardClass">
           <div class="mb-4" :class="panelTitleClass">Portada</div>
           <div
             class="flex aspect-[16/9] items-center justify-center border border-line-img bg-[repeating-linear-gradient(135deg,#0e1a2d_0_12px,#0c1626_12px_24px)]"
@@ -198,7 +203,7 @@ const secondaryButton =
           </p>
         </div>
 
-        <div class="p-[26px]" :class="cardClass">
+        <div class="p-5 tablet:p-[26px]" :class="cardClass">
           <div class="mb-4" :class="panelTitleClass">Estructura</div>
           <div class="flex flex-col gap-px bg-line-card">
             <div

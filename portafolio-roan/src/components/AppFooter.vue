@@ -20,7 +20,7 @@ withDefaults(defineProps<{ links?: FooterLink[] }>(), {
 <template>
   <footer class="border-t border-line">
     <div
-      class="mx-auto flex max-w-[1240px] items-center justify-between gap-6 px-10 py-8 max-desk:flex-col max-desk:items-start max-desk:gap-4 max-desk:px-5"
+      class="mx-auto flex max-w-[1240px] flex-col items-start gap-4 px-5 py-8 tablet:flex-row tablet:items-center tablet:justify-between tablet:gap-6 tablet:px-8 desk:px-10"
     >
       <span class="text-[13px] text-dim">© 2026 Angel Rogelio Argonza Roblero</span>
       <div class="flex gap-6">

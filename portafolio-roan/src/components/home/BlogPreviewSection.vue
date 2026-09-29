@@ -13,7 +13,7 @@ const latest = articles.slice(0, 2)
         Ver todas las entradas →
       </RouterLink>
     </template>
-    <div class="grid grid-cols-2 gap-7 max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8">
+    <div class="grid grid-cols-[minmax(0,1fr)] gap-8 tablet:grid-cols-2 tablet:gap-6 desk:gap-7">
       <RouterLink
         v-for="(article, i) in latest"
         :key="article.slug"

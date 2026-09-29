@@ -15,7 +15,7 @@ const stats = [
       class="pointer-events-none absolute -top-20 -right-[120px] size-[620px] bg-[radial-gradient(circle,rgba(31,111,235,.28),transparent_65%)]"
     ></div>
     <div
-      class="relative mx-auto grid max-w-[1240px] grid-cols-[1.15fr_.85fr] items-center gap-[72px] px-10 pt-24 pb-[88px] max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8 max-desk:px-5 max-desk:py-14"
+      class="relative mx-auto grid max-w-[1240px] grid-cols-[minmax(0,1fr)] items-center gap-8 px-5 py-14 tablet:gap-12 tablet:px-8 tablet:py-16 desk:grid-cols-[1.15fr_.85fr] desk:gap-[72px] desk:px-10 desk:pt-24 desk:pb-[88px]"
     >
       <div v-reveal="0">
         <div class="mb-[26px] flex items-center gap-3">
@@ -25,7 +25,7 @@ const stats = [
           </span>
         </div>
         <h1
-          class="m-0 text-[70px] leading-[1.02] font-extrabold tracking-[-.035em] text-balance text-white max-desk:text-[clamp(34px,10vw,46px)]"
+          class="m-0 text-[clamp(34px,10vw,46px)] leading-[1.02] font-extrabold tracking-[-.035em] text-balance text-white tablet:text-[56px] desk:text-[70px]"
         >
           Desarrollador de Software <span class="text-accent">Fullstack</span>
         </h1>
@@ -33,7 +33,7 @@ const stats = [
           Diseño y desarrollo sistemas web, automatizaciones y microservicios de extremo a extremo.
           Cinco años entregando soluciones medibles.
         </p>
-        <div class="mt-[38px] flex gap-3.5">
+        <div class="mt-[38px] flex flex-wrap gap-3.5">
           <BaseButton to="/#proyectos">Ver proyectos</BaseButton>
           <BaseButton to="/#contacto" variant="outline">Descargar CV</BaseButton>
         </div>
@@ -43,21 +43,21 @@ const stats = [
             :key="stat.label"
             class="flex-1 pt-[22px]"
             :class="[
-              i === 0 ? 'pr-6' : 'border-l border-line-card',
-              i === 1 ? 'px-6' : '',
-              i === 2 ? 'pl-6' : '',
+              i === 0 ? 'pr-4 tablet:pr-6' : 'border-l border-line-card',
+              i === 1 ? 'px-4 tablet:px-6' : '',
+              i === 2 ? 'pl-4 tablet:pl-6' : '',
             ]"
           >
-            <div class="text-[34px] font-extrabold tracking-[-.03em] text-white">
+            <div class="text-[28px] font-extrabold tracking-[-.03em] text-white tablet:text-[34px]">
               {{ stat.value }}
             </div>
             <div class="text-[12.5px] leading-[1.4] text-label">{{ stat.label }}</div>
           </div>
         </div>
       </div>
-      <div v-reveal="1" class="relative">
+      <div v-reveal="1" class="relative tablet:max-w-[420px] desk:max-w-none">
         <div
-          class="absolute top-[22px] -right-[22px] -bottom-[22px] left-[22px] border-2 border-accent-strong max-desk:hidden"
+          class="absolute top-[22px] -right-[22px] -bottom-[22px] left-[22px] hidden border-2 border-accent-strong desk:block"
         ></div>
         <img
           :src="angel"
@@ -65,7 +65,7 @@ const stats = [
           class="relative block aspect-[4/5] w-full object-cover"
         />
         <div
-          class="absolute -bottom-6 -left-6 border border-line-img bg-code-bg px-5 py-4 font-mono text-xs leading-[1.7] text-code max-desk:static max-desk:mt-3.5"
+          class="mt-3.5 border border-line-img bg-code-bg px-5 py-4 font-mono text-xs leading-[1.7] text-code desk:absolute desk:-bottom-6 desk:-left-6 desk:mt-0"
         >
           <div class="text-dim">// developer.js</div>
           <div><span class="text-dim">const</span> dev = {</div>

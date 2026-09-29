@@ -4,7 +4,7 @@ import BaseButton from '@/components/BaseButton.vue'
 </script>
 
 <template>
-  <main class="mx-auto max-w-[1240px] px-10 py-24 max-desk:px-5 max-desk:py-14">
+  <main class="mx-auto max-w-[1240px] px-5 py-14 tablet:px-8 tablet:py-16 desk:px-10 desk:py-24">
     <div class="mb-[18px] text-[11px] font-bold tracking-[.2em] text-eyebrow uppercase">
       Error 404
     </div>

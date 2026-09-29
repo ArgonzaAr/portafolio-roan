@@ -21,13 +21,13 @@ const footerLinks = [
       <div
         class="pointer-events-none absolute -top-[180px] -right-[100px] size-[600px] bg-[radial-gradient(circle,rgba(31,111,235,.24),transparent_65%)]"
       ></div>
-      <div class="relative mx-auto max-w-[1240px] px-10 pt-20 pb-[60px] max-desk:px-5">
+      <div class="relative mx-auto max-w-[1240px] px-5 pt-20 pb-[60px] tablet:px-8 desk:px-10">
         <div class="mb-[22px] flex items-center gap-3">
           <span class="h-0.5 w-[34px] bg-accent-strong"></span>
           <span class="text-[11px] font-bold tracking-[.2em] text-eyebrow uppercase">Blog</span>
         </div>
         <h1
-          class="m-0 max-w-[780px] text-[56px] leading-[1.04] font-extrabold tracking-[-.035em] text-balance text-white max-desk:text-[clamp(34px,10vw,46px)]"
+          class="m-0 max-w-[780px] text-[clamp(34px,10vw,46px)] leading-[1.04] font-extrabold tracking-[-.035em] text-balance text-white tablet:text-[48px] desk:text-[56px]"
         >
           Notas sobre desarrollo, automatización y datos
         </h1>
@@ -55,24 +55,26 @@ const footerLinks = [
     </section>
 
     <section v-if="featured" class="border-b border-line bg-surface">
-      <div class="mx-auto max-w-[1240px] px-10 py-16 max-desk:px-5">
+      <div class="mx-auto max-w-[1240px] px-5 py-16 tablet:px-8 desk:px-10">
         <div class="mb-6 text-[11px] font-bold tracking-[.2em] text-dim uppercase">Destacado</div>
         <RouterLink
           :to="`/blog/${featured.slug}`"
-          class="grid grid-cols-[1fr_1.05fr] border border-line-card bg-card text-inherit hover:border-accent/55 hover:text-inherit max-desk:grid-cols-[minmax(0,1fr)] max-desk:gap-8"
+          class="grid grid-cols-[minmax(0,1fr)] gap-8 border border-line-card bg-card text-inherit hover:border-accent/55 hover:text-inherit desk:grid-cols-[1fr_1.05fr] desk:gap-0"
         >
           <div
-            class="flex min-h-[330px] items-end bg-[repeating-linear-gradient(135deg,#0e1a2d_0_12px,#0c1626_12px_24px)] p-[18px]"
+            class="flex min-h-[240px] items-end tablet:min-h-[300px] desk:min-h-[330px] bg-[repeating-linear-gradient(135deg,#0e1a2d_0_12px,#0c1626_12px_24px)] p-[18px]"
           >
             <span class="text-[11px] tracking-[.14em] text-dim uppercase">Imagen de portada</span>
           </div>
-          <div class="px-[42px] py-11 max-desk:px-5">
-            <div class="flex gap-3.5 text-[11px] tracking-[.14em] text-dim uppercase">
+          <div class="px-5 py-11 tablet:px-8 desk:px-[42px]">
+            <div
+              class="flex flex-wrap gap-x-3.5 gap-y-1 text-[11px] tracking-[.14em] text-dim uppercase"
+            >
               <span class="text-accent">{{ featured.category }}</span>
               <span>{{ featured.date }} · {{ featured.readingMinutes }} min de lectura</span>
             </div>
             <h2
-              class="m-0 mt-[18px] text-[32px] leading-[1.16] font-extrabold tracking-[-.028em] text-white"
+              class="m-0 mt-[18px] text-[26px] leading-[1.16] font-extrabold tracking-[-.028em] text-white tablet:text-[32px]"
             >
               {{ featured.title }}
             </h2>
@@ -88,11 +90,11 @@ const footerLinks = [
     </section>
 
     <section>
-      <div class="mx-auto max-w-[1240px] px-10 pt-16 pb-20 max-desk:px-5">
+      <div class="mx-auto max-w-[1240px] px-5 pt-16 pb-20 tablet:px-8 desk:px-10">
         <div class="mb-6 text-[11px] font-bold tracking-[.2em] text-dim uppercase">
           Todas las entradas
         </div>
-        <div class="grid grid-cols-3 gap-[22px] max-desk:grid-cols-2">
+        <div class="grid grid-cols-[minmax(0,1fr)] gap-[22px] tablet:grid-cols-2 desk:grid-cols-3">
           <RouterLink
             v-for="article in filtered"
             :key="article.slug"
@@ -107,7 +109,9 @@ const footerLinks = [
               </span>
             </div>
             <div class="flex flex-1 flex-col gap-3 px-[26px] pt-[26px] pb-[30px]">
-              <div class="flex gap-3 text-[11px] tracking-[.14em] text-dim uppercase">
+              <div
+                class="flex flex-wrap gap-x-3 gap-y-1 text-[11px] tracking-[.14em] text-dim uppercase"
+              >
                 <span class="text-accent">{{ article.category }}</span>
                 <span>{{ article.date }} · {{ article.readingMinutes }} min</span>
               </div>
@@ -122,7 +126,7 @@ const footerLinks = [
 
     <section class="border-t border-line bg-surface">
       <div
-        class="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-12 px-10 py-[60px] max-desk:px-5"
+        class="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-8 px-5 py-[60px] tablet:px-8 desk:gap-12 desk:px-10"
       >
         <div>
           <h2 class="m-0 text-[28px] leading-[1.2] font-extrabold tracking-[-.028em] text-white">
@@ -132,16 +136,14 @@ const footerLinks = [
             Un correo al mes, sin promociones. Solo el artículo nuevo.
           </p>
         </div>
-        <div
-          class="flex gap-3 max-desk:w-full max-desk:flex-wrap max-desk:*:min-w-0 max-desk:*:flex-[1_1_100%]"
-        >
+        <div class="flex w-full flex-col gap-3 tablet:flex-row desk:w-auto">
           <input
             type="email"
             placeholder="tucorreo@dominio.com"
             aria-label="Correo"
-            class="w-[280px] border border-line-input bg-bg px-4 py-3.5 text-[14.5px] text-fg"
+            class="w-full min-w-0 border border-line-input bg-bg px-4 py-3.5 text-[14.5px] text-fg tablet:flex-1 desk:w-[280px] desk:flex-none"
           />
-          <BaseButton class="px-7 py-3.5">Suscribirme</BaseButton>
+          <BaseButton class="shrink-0 px-7 py-3.5">Suscribirme</BaseButton>
         </div>
       </div>
     </section>

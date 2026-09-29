@@ -6,7 +6,9 @@ import ServiceIcon from './ServiceIcon.vue'
 
 <template>
   <SectionWrapper id="servicios" surface eyebrow="Servicios" title="Lo que puedo construir para ti">
-    <div class="grid grid-cols-5 gap-px border border-line-card bg-line-card max-desk:grid-cols-2">
+    <div
+      class="grid grid-cols-[minmax(0,1fr)] gap-px border border-line-card bg-line-card tablet:grid-cols-3 desk:grid-cols-5"
+    >
       <div
         v-for="(service, i) in services"
         :key="service.id"
