@@ -1,49 +1,51 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted, reactive, useTemplateRef } from 'vue'
 import SectionWrapper from '@/components/SectionWrapper.vue'
+import ProjectCard from '@/components/home/ProjectCard.vue'
 import { projects } from '@/data'
+
+/**
+ * En dispositivos sin hover, se enfocan las tarjetas que cruzan la franja central
+ * del viewport: una fila de la cuadrícula a la vez (1 tarjeta en móvil, 2 en tablet).
+ */
+const focusedIds = reactive(new Set<string>())
+const wrappers = useTemplateRef<HTMLElement[]>('wrappers')
+let observer: IntersectionObserver | undefined
+
+onMounted(() => {
+  const isTouch = window.matchMedia?.('(hover: none)').matches ?? false
+  if (!isTouch || typeof IntersectionObserver === 'undefined') return
+
+  observer = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        const id = (entry.target as HTMLElement).dataset.projectId
+        if (!id) continue
+        if (entry.isIntersecting) focusedIds.add(id)
+        else focusedIds.delete(id)
+      }
+    },
+    { rootMargin: '-49.5% 0px -49.5% 0px' },
+  )
+  for (const el of wrappers.value ?? []) observer.observe(el)
+})
+
+onUnmounted(() => observer?.disconnect())
 </script>
 
 <template>
   <SectionWrapper id="proyectos" eyebrow="Proyectos" title="Trabajo seleccionado">
-    <template #aside>
-      <span class="border border-line-strong px-3.5 py-2 text-xs text-label">
-        Contenido de ejemplo — pendiente de reemplazar
-      </span>
-    </template>
     <div class="grid grid-cols-[minmax(0,1fr)] gap-[22px] tablet:grid-cols-2 desk:grid-cols-3">
-      <component
-        :is="project.url ? 'a' : 'div'"
+      <!-- v-reveal va en el envoltorio: la tarjeta interior usa su propio transform al elevarse -->
+      <div
         v-for="(project, i) in projects"
+        ref="wrappers"
         :key="project.id"
         v-reveal="i"
-        :href="project.url"
-        :target="project.url ? '_blank' : undefined"
-        :rel="project.url ? 'noopener' : undefined"
-        class="flex flex-col border border-line-card bg-card hover:border-accent/55 hover:bg-card-hover"
-        :class="project.url ? 'text-inherit hover:text-inherit' : ''"
+        :data-project-id="project.id"
       >
-        <div
-          class="flex aspect-[16/9] items-end border-b border-line-card bg-[repeating-linear-gradient(135deg,#0e1a2d_0_12px,#0c1626_12px_24px)] p-3.5"
-        >
-          <span class="text-[11px] tracking-[.14em] text-dim uppercase">Captura del proyecto</span>
-        </div>
-        <div class="flex flex-1 flex-col gap-3 px-[26px] pt-[26px] pb-[30px]">
-          <div class="text-lg leading-[1.3] font-bold text-white">{{ project.title }}</div>
-          <p class="m-0 text-[13.5px] leading-[1.65] text-muted">{{ project.description }}</p>
-          <div class="flex flex-wrap gap-2">
-            <span
-              v-for="tag in project.tags"
-              :key="tag"
-              class="border border-line-strong px-2.5 py-[5px] text-[11.5px] font-semibold tracking-[.04em] text-code"
-            >
-              {{ tag }}
-            </span>
-          </div>
-          <span v-if="project.url" class="mt-auto text-[13px] font-bold text-accent">
-            Ver proyecto →
-          </span>
-        </div>
-      </component>
+        <ProjectCard :project="project" :focused="focusedIds.has(project.id)" />
+      </div>
     </div>
   </SectionWrapper>
 </template>

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import AppFooter from '@/components/AppFooter.vue'
 import AboutSection from '@/components/home/AboutSection.vue'
-import BlogPreviewSection from '@/components/home/BlogPreviewSection.vue'
+// Blog deshabilitado temporalmente
+// import BlogPreviewSection from '@/components/home/BlogPreviewSection.vue'
 import ContactSection from '@/components/home/ContactSection.vue'
 import HeroSection from '@/components/home/HeroSection.vue'
 import ProjectsSection from '@/components/home/ProjectsSection.vue'
@@ -16,7 +17,8 @@ import TechStackSection from '@/components/home/TechStackSection.vue'
     <AboutSection />
     <ServicesSection />
     <ProjectsSection />
-    <BlogPreviewSection />
+    <!-- Blog deshabilitado temporalmente -->
+    <!-- <BlogPreviewSection /> -->
     <ContactSection />
   </main>
   <AppFooter />

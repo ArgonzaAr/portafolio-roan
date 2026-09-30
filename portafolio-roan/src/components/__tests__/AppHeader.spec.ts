@@ -10,7 +10,6 @@ async function mountHeader() {
     history: createMemoryHistory(),
     routes: [
       { path: '/', component: { template: '<div />' } },
-      { path: '/blog', component: { template: '<div />' } },
     ],
   })
   router.push('/')
@@ -49,16 +48,16 @@ describe('AppHeader — menú hamburguesa', () => {
     const { wrapper, router } = await mountHeader()
 
     await wrapper.get('[data-test="menu-toggle"]').trigger('click')
-    const blogLink = wrapper
+    const projectsLink = wrapper
       .get('[data-test="menu-panel"]')
       .findAll('a')
-      .find((a) => a.text() === 'Blog')!
+      .find((a) => a.text() === 'Proyectos')!
 
-    await blogLink.trigger('click')
+    await projectsLink.trigger('click')
     await router.isReady()
     await new Promise((resolve) => setTimeout(resolve))
 
     expect(wrapper.get('[data-test="menu-panel"]').isVisible()).toBe(false)
-    expect(router.currentRoute.value.path).toBe('/blog')
+    expect(router.currentRoute.value.hash).toBe('#proyectos')
   })
 })

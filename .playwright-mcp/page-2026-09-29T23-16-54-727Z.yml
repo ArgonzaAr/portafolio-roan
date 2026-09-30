@@ -1,0 +1,33 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "Planificador de Gastos" [level=1] [ref=e5]
+    - generic [ref=e12]:
+      - paragraph [ref=e14]: 20%
+      - generic [ref=e19]:
+        - button "Resetrear presupuesto" [ref=e20]
+        - paragraph [ref=e21]: "Presupuesto: $15,000.00"
+        - paragraph [ref=e22]: "Disponible: $3,021.00"
+        - paragraph [ref=e23]: "Gastado: $11,979.00"
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: Filtrar Gastos
+      - combobox "Filtrar Gastos" [ref=e28]:
+        - option "-- Seleccione ---"
+        - option "Ahorro"
+        - option "Comida"
+        - option "Casa" [selected]
+        - option "Gastos Varios"
+        - option "Ocio"
+        - option "Salud"
+        - option "Suscripciones"
+    - generic [ref=e29]:
+      - heading "Gastos" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "icono gasto" [ref=e51]
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: casa
+            - paragraph [ref=e54] [cursor=pointer]: Renta del departamento
+            - paragraph [ref=e55]: 29 de septiembre de 2026
+        - paragraph [ref=e56]: $6,500.00
+    - img "icono nuevo gasto" [ref=e32] [cursor=pointer]

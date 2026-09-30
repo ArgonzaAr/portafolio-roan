@@ -13,7 +13,8 @@ const links = computed(() => [
   { label: 'Sobre mí', to: '/#sobre-mi', active: false },
   { label: 'Servicios', to: '/#servicios', active: false },
   { label: 'Proyectos', to: '/#proyectos', active: false },
-  { label: 'Blog', to: '/blog', active: route.path.startsWith('/blog') },
+  // Blog deshabilitado temporalmente
+  // { label: 'Blog', to: '/blog', active: route.path.startsWith('/blog') },
 ])
 
 function toggleMenu() {

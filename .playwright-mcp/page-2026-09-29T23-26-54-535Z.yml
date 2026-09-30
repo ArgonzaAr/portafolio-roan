@@ -1,0 +1,54 @@
+- generic [active] [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e4]:
+      - link [ref=f18e5] [cursor=pointer]:
+        - /url: /
+        - heading "BlogDeCafé" [level=1] [ref=f18e6]
+      - navigation [ref=f18e7]:
+        - link "Nosotros" [ref=f18e8] [cursor=pointer]:
+          - /url: /nosotros
+        - link "Cursos" [ref=f18e9] [cursor=pointer]:
+          - /url: /cursos
+        - link "Contacto" [ref=f18e10] [cursor=pointer]:
+          - /url: /contacto
+    - generic [ref=f18e11]:
+      - heading "Blog de Café - Consejos y cursos" [level=1] [ref=f18e12]
+      - paragraph [ref=f18e13]: Aprende de las mejores recetas con los mejores maestros del café
+  - main [ref=f18e14]:
+    - heading "Nuestros Cursos y Talleres" [level=3] [ref=f18e15]
+    - generic [ref=f18e16]:
+      - img "imagen curso" [ref=f18e18]
+      - generic [ref=f18e19]:
+        - heading "Técnicas de extracción de café" [level=4] [ref=f18e20]
+        - paragraph [ref=f18e21]: "Precio: Gratis"
+        - paragraph [ref=f18e22]: Cupo 20
+        - paragraph [ref=f18e23]: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae enim exercitationem, dolores quisquam natus deserunt minima deleniti? Est nulla inventore laudantium nesciunt beatae dolor soluta obcaecati alias vero similique.
+    - generic [ref=f18e24]:
+      - img "imagen curso" [ref=f18e26]
+      - generic [ref=f18e27]:
+        - heading "Taller para Tostar y Moler Granos" [level=4] [ref=f18e28]
+        - paragraph [ref=f18e29]: "Precio: Gratis"
+        - paragraph [ref=f18e30]: Cupo 20
+        - paragraph [ref=f18e31]: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae enim exercitationem, dolores quisquam natus deserunt minima deleniti? Est nulla inventore laudantium nesciunt beatae dolor soluta obcaecati alias vero similique.
+    - generic [ref=f18e32]:
+      - img "imagen curso" [ref=f18e34]
+      - generic [ref=f18e35]:
+        - heading "4 Recetas de Café para Principiantes" [level=4] [ref=f18e36]
+        - paragraph [ref=f18e37]: "Precio: Gratis"
+        - paragraph [ref=f18e38]: Cupo 20
+        - paragraph [ref=f18e39]: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae beatae enim exercitationem, dolores quisquam natus deserunt minima deleniti? Est nulla inventore laudantium nesciunt beatae dolor soluta obcaecati alias vero similique.
+  - contentinfo [ref=f18e40]:
+    - generic [ref=f18e42]:
+      - link [ref=f18e43] [cursor=pointer]:
+        - /url: /
+        - heading "BlogDeCafé" [level=1] [ref=f18e44]
+      - generic [ref=f18e45]:
+        - link "Nosotros" [ref=f18e46] [cursor=pointer]:
+          - /url: /nosotros
+        - link "Cursos" [ref=f18e47] [cursor=pointer]:
+          - /url: /cursos
+        - link "Contacto" [ref=f18e48] [cursor=pointer]:
+          - /url: /contacto
+  - iframe [ref=f18e49]:
+    - button "Powered by Netlify — build your own site" [ref=f19e3] [cursor=pointer]:
+      - generic [ref=f19e13]: Powered by Netlify

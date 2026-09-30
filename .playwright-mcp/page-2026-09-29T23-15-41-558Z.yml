@@ -1,0 +1,24 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "Planificador de Gastos" [level=1] [ref=e5]
+    - generic [ref=e12]:
+      - paragraph [ref=e14]: 100%
+      - generic [ref=e19]:
+        - button "Resetrear presupuesto" [ref=e20]
+        - paragraph [ref=e21]: "Presupuesto: $15,000.00"
+        - paragraph [ref=e22]: "Disponible: $15,000.00"
+        - paragraph [ref=e23]: "Gastado: $0.00"
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: Filtrar Gastos
+      - combobox "Filtrar Gastos" [ref=e28]:
+        - option "-- Seleccione ---" [selected]
+        - option "Ahorro"
+        - option "Comida"
+        - option "Casa"
+        - option "Gastos Varios"
+        - option "Ocio"
+        - option "Salud"
+        - option "Suscripciones"
+    - heading "No hay gastos" [level=2] [ref=e30]
+    - img "icono nuevo gasto" [ref=e32] [cursor=pointer]

@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "Cocina Chiapas Cocina Chiapas Sabores Tradicionales" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Cocina Chiapas" [ref=e8]
+          - generic [ref=e9]:
+            - generic [ref=e10]: Cocina Chiapas
+            - generic [ref=e11]: Sabores Tradicionales
+        - generic [ref=e12]:
+          - link "Menú" [ref=e13] [cursor=pointer]:
+            - /url: /
+          - link "Eventos" [ref=e14] [cursor=pointer]:
+            - /url: /contacto
+    - main [ref=e15]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Sabores Auténticos de Chiapas
+        - heading "Sabores de Chiapas" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Descubre los auténticos sabores de nuestra tierra. Platillos tradicionales preparados con ingredientes frescos y locales.
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: 100%
+            - generic [ref=e30]: Natural
+          - generic [ref=e31]:
+            - generic [ref=e32]: 30+
+            - generic [ref=e33]: Platillos
+          - generic [ref=e34]:
+            - generic [ref=e35]: Chiapas
+            - generic [ref=e36]: Origen
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "Comida Corrida" [level=2] [ref=e40]
+            - paragraph [ref=e41]: Un servicio completo con todo incluido
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - generic [ref=e45]: 🍚
+                - generic [ref=e46]: Primer Tiempo
+                - generic [ref=e47]: Arroz, sopa o espaguetti
+              - generic [ref=e48]: →
+              - generic [ref=e49]:
+                - generic [ref=e50]: 🍽️
+                - generic [ref=e51]: Plato Fuerte
+                - generic [ref=e52]: Platillo principal del día
+              - generic [ref=e53]: →
+              - generic [ref=e54]:
+                - generic [ref=e55]: 🍮
+                - generic [ref=e56]: Postre
+                - generic [ref=e57]: Para cerrar con sabor
+            - paragraph [ref=e59]:
+              - text: ¿Prefieres algo más ligero?
+              - link "También puedes pedir solo el plato fuerte →" [ref=e60] [cursor=pointer]:
+                - /url: "#plato-fuerte"
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: 🍚
+            - generic [ref=e64]:
+              - generic [ref=e65]: Paso 1
+              - heading "Primer Tiempo" [level=3] [ref=e66]
+          - generic [ref=e68]:
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - img "Sopa de Tortilla" [ref=e72]
+                - generic [ref=e74]: Primer Tiempo
+              - generic [ref=e75]:
+                - heading "Sopa de Tortilla" [level=3] [ref=e76]
+                - paragraph [ref=e77]: Tradicional sopa de tortilla con pollo, aguacate y queso
+                - generic [ref=e78]:
+                  - generic [ref=e79]: Precio
+                  - generic [ref=e80]: $85.00
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - img "Pozole Rojo" [ref=e84]
+                - generic [ref=e86]: Primer Tiempo
+              - generic [ref=e87]:
+                - heading "Pozole Rojo" [level=3] [ref=e88]
+                - paragraph [ref=e89]: Pozole tradicional chiapaneco con carne de cerdo
+                - generic [ref=e90]:
+                  - generic [ref=e91]: Precio
+                  - generic [ref=e92]: $95.00
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: 🍽️
+            - generic [ref=e96]:
+              - generic [ref=e97]: Paso 2 · También disponible por separado
+              - heading "Plato Fuerte" [level=3] [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]:
+                - img "Pollo en Salsa de Almendra" [ref=e104]
+                - generic [ref=e106]: Plato Fuerte
+              - generic [ref=e107]:
+                - heading "Pollo en Salsa de Almendra" [level=3] [ref=e108]
+                - paragraph [ref=e109]: Pollo sudado en salsa de almendra con arroz blanco
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Precio
+                  - generic [ref=e112]: $165.00
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - img "Carne de Cerdo en Salsa Roja" [ref=e116]
+                - generic [ref=e118]: Plato Fuerte
+              - generic [ref=e119]:
+                - heading "Carne de Cerdo en Salsa Roja" [level=3] [ref=e120]
+                - paragraph [ref=e121]: Carne de cerdo cocida en salsa de tomate con especias
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Precio
+                  - generic [ref=e124]: $155.00
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - img "Tamales de Chipilín" [ref=e128]
+                - generic [ref=e130]: Plato Fuerte
+              - generic [ref=e131]:
+                - heading "Tamales de Chipilín" [level=3] [ref=e132]
+                - paragraph [ref=e133]: Tamales tradicionales de chipilín con pollo
+                - generic [ref=e134]:
+                  - generic [ref=e135]: Precio
+                  - generic [ref=e136]: $45.00
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - generic [ref=e139]: 🥤
+            - generic [ref=e140]:
+              - generic [ref=e141]: Paso 3
+              - heading "Bebidas" [level=3] [ref=e142]
+          - generic [ref=e144]:
+            - generic [ref=e146]:
+              - generic [ref=e147]:
+                - img "Agua de Horchata" [ref=e148]
+                - generic [ref=e150]: Bebida
+              - generic [ref=e151]:
+                - heading "Agua de Horchata" [level=3] [ref=e152]
+                - paragraph [ref=e153]: Refrescante agua de arroz con canela
+                - generic [ref=e154]:
+                  - generic [ref=e155]: Precio
+                  - generic [ref=e156]: $35.00
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - img "Café de Olla" [ref=e160]
+                - generic [ref=e162]: Bebida
+              - generic [ref=e163]:
+                - heading "Café de Olla" [level=3] [ref=e164]
+                - paragraph [ref=e165]: Café tradicional preparado en olla de barro
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Precio
+                  - generic [ref=e168]: $30.00
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - img "Chocolate Chiapas" [ref=e172]
+                - generic [ref=e174]: Bebida
+              - generic [ref=e175]:
+                - heading "Chocolate Chiapas" [level=3] [ref=e176]
+                - paragraph [ref=e177]: Chocolate caliente tradicional de Chiapas
+                - generic [ref=e178]:
+                  - generic [ref=e179]: Precio
+                  - generic [ref=e180]: $40.00
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: 🍮
+            - generic [ref=e184]:
+              - generic [ref=e185]: Paso 4
+              - heading "Postre" [level=3] [ref=e186]
+          - generic [ref=e188]:
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - img "Gelatina de Rosa" [ref=e192]
+                - generic [ref=e194]: Postre
+              - generic [ref=e195]:
+                - heading "Gelatina de Rosa" [level=3] [ref=e196]
+                - paragraph [ref=e197]: Gelatina tradicional con sabor a rosa
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Precio
+                  - generic [ref=e200]: $45.00
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - img "Cajeta con Nuez" [ref=e204]
+                - generic [ref=e206]: Postre
+              - generic [ref=e207]:
+                - heading "Cajeta con Nuez" [level=3] [ref=e208]
+                - paragraph [ref=e209]: Dulce de leche quemado con nueces
+                - generic [ref=e210]:
+                  - generic [ref=e211]: Precio
+                  - generic [ref=e212]: $55.00
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - heading "Pedidos y Apartados" [level=2] [ref=e215]
+            - paragraph [ref=e216]: ¿Quieres hacer un pedido anticipado o apartar un platillo? Contáctanos directamente.
+          - link "📞 Llámanos o escríbenos +52 961 123 4567" [ref=e218] [cursor=pointer]:
+            - /url: tel:+529611234567
+            - generic [ref=e219]: 📞
+            - generic [ref=e220]:
+              - paragraph [ref=e221]: Llámanos o escríbenos
+              - paragraph [ref=e222]: +52 961 123 4567
+    - contentinfo [ref=e223]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - img "Cocina Chiapas" [ref=e228]
+          - generic [ref=e229]:
+            - text: Cocina Chiapas
+            - paragraph [ref=e230]: Sabores Tradicionales
+        - paragraph [ref=e231]: © 2024 Cocina Chiapas. Todos los derechos reservados.
+  - iframe [ref=e232]:
+    - button "Powered by Netlify — build your own site" [ref=f1e3] [cursor=pointer]:
+      - generic [ref=f1e13]: Powered by Netlify
+  - alert [ref=e233]

@@ -35,7 +35,9 @@ const stats = [
         </p>
         <div class="mt-[38px] flex flex-wrap gap-3.5">
           <BaseButton to="/#proyectos">Ver proyectos</BaseButton>
-          <BaseButton to="/#contacto" variant="outline">Descargar CV</BaseButton>
+          <BaseButton href="/CV_actualizado_2026.pdf" download variant="outline"
+            >Descargar CV</BaseButton
+          >
         </div>
         <div class="mt-14 flex border-t border-line-card">
           <div

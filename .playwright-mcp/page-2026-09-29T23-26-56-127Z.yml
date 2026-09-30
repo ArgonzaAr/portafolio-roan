@@ -1,0 +1,47 @@
+- generic [active] [ref=f20e1]:
+  - banner [ref=f20e2]:
+    - generic [ref=f20e4]:
+      - link [ref=f20e5] [cursor=pointer]:
+        - /url: /
+        - heading "BlogDeCafé" [level=1] [ref=f20e6]
+      - navigation [ref=f20e7]:
+        - link "Nosotros" [ref=f20e8] [cursor=pointer]:
+          - /url: /nosotros
+        - link "Cursos" [ref=f20e9] [cursor=pointer]:
+          - /url: /cursos
+        - link "Contacto" [ref=f20e10] [cursor=pointer]:
+          - /url: /contacto
+    - generic [ref=f20e11]:
+      - heading "Blog de Café - Consejos y cursos" [level=1] [ref=f20e12]
+      - paragraph [ref=f20e13]: Aprende de las mejores recetas con los mejores maestros del café
+  - main [ref=f20e14]:
+    - heading "Contacto" [level=3] [ref=f20e15]
+    - generic [ref=f20e17]:
+      - generic [ref=f20e18]:
+        - generic [ref=f20e19]: Nombre
+        - textbox "Nombre" [ref=f20e20]:
+          - /placeholder: Tu Nombre
+      - generic [ref=f20e21]:
+        - generic [ref=f20e22]: E-mail
+        - textbox "E-mail" [ref=f20e23]:
+          - /placeholder: Tu e-mail
+      - generic [ref=f20e24]:
+        - generic [ref=f20e25]: Mensaje
+        - textbox "Mensaje" [ref=f20e26]:
+          - /placeholder: Mensaje...
+      - button "Enviar" [ref=f20e28]
+  - contentinfo [ref=f20e29]:
+    - generic [ref=f20e31]:
+      - link [ref=f20e32] [cursor=pointer]:
+        - /url: /
+        - heading "BlogDeCafé" [level=1] [ref=f20e33]
+      - generic [ref=f20e34]:
+        - link "Nosotros" [ref=f20e35] [cursor=pointer]:
+          - /url: /nosotros
+        - link "Cursos" [ref=f20e36] [cursor=pointer]:
+          - /url: /cursos
+        - link "Contacto" [ref=f20e37] [cursor=pointer]:
+          - /url: /contacto
+  - iframe [ref=f20e38]:
+    - button "Powered by Netlify — build your own site" [ref=f21e3] [cursor=pointer]:
+      - generic [ref=f21e13]: Powered by Netlify

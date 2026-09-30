@@ -3,17 +3,18 @@ import type { RouteRecordRaw } from 'vue-router'
 
 export const routes: RouteRecordRaw[] = [
   { path: '/', name: 'home', component: () => import('@/views/HomeView.vue') },
-  { path: '/blog', name: 'blog', component: () => import('@/views/BlogView.vue') },
-  {
-    path: '/blog/nuevo',
-    name: 'new-article',
-    component: () => import('@/views/NewArticleView.vue'),
-  },
-  {
-    path: '/blog/:slug',
-    name: 'article',
-    component: () => import('@/views/ArticleView.vue'),
-  },
+  // Blog deshabilitado temporalmente — solo el home del portafolio está activo.
+  // { path: '/blog', name: 'blog', component: () => import('@/views/BlogView.vue') },
+  // {
+  //   path: '/blog/nuevo',
+  //   name: 'new-article',
+  //   component: () => import('@/views/NewArticleView.vue'),
+  // },
+  // {
+  //   path: '/blog/:slug',
+  //   name: 'article',
+  //   component: () => import('@/views/ArticleView.vue'),
+  // },
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',

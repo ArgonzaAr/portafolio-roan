@@ -1,0 +1,227 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - banner [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - link "Angel Argonza" [ref=f1e5] [cursor=pointer]:
+          - /url: /#home
+        - navigation [ref=f1e13]:
+          - link "Home" [ref=f1e14] [cursor=pointer]:
+            - /url: /#home
+          - link "Sobre mí" [ref=f1e15] [cursor=pointer]:
+            - /url: /#sobre-mi
+          - link "Servicios" [ref=f1e16] [cursor=pointer]:
+            - /url: /#servicios
+          - link "Proyectos" [ref=f1e17] [cursor=pointer]:
+            - /url: /#proyectos
+          - link "Blog" [ref=f1e18] [cursor=pointer]:
+            - /url: /blog
+          - generic [ref=f1e19] [cursor=pointer]: Trabajemos juntos
+    - main [ref=f1e20]:
+      - generic [ref=f1e22]:
+        - generic [ref=f1e23]:
+          - generic [ref=f1e24]: CIUDAD DE MÉXICO
+          - heading "Desarrollador de Software Fullstack" [level=1] [ref=f1e27]
+          - paragraph [ref=f1e28]: Diseño y desarrollo sistemas web, automatizaciones y microservicios de extremo a extremo. Cinco años entregando soluciones medibles.
+          - generic [ref=f1e29]:
+            - generic [ref=f1e30] [cursor=pointer]: Ver proyectos
+            - generic [ref=f1e31] [cursor=pointer]: Descargar CV
+          - generic [ref=f1e32]:
+            - generic [ref=f1e33]:
+              - generic [ref=f1e34]: "5"
+              - generic [ref=f1e35]: años de experiencia
+            - generic [ref=f1e36]:
+              - generic [ref=f1e37]: 56%
+              - generic [ref=f1e38]: menos carga operativa
+            - generic [ref=f1e39]:
+              - generic [ref=f1e40]: +70%
+              - generic [ref=f1e41]: más rápido en reportería
+        - generic [ref=f1e42]:
+          - img "Angel Argonza" [ref=f1e44]
+          - generic [ref=f1e45]:
+            - generic [ref=f1e46]: // developer.js
+            - generic [ref=f1e47]: "const dev = {"
+            - generic [ref=f1e48]: "rol: 'Fullstack',"
+            - generic [ref=f1e49]: "enfoque: 'automatizar',"
+            - generic [ref=f1e50]: "entrega: 'medible'"
+            - generic [ref=f1e51]: "};"
+      - generic [ref=f1e53]:
+        - generic [ref=f1e54]: Tecnologías con las que trabajo
+        - generic [ref=f1e55]:
+          - generic [ref=f1e56]: JavaScript
+          - generic [ref=f1e62]: Python
+          - generic [ref=f1e68]: C#
+          - generic [ref=f1e73]: PHP
+          - generic [ref=f1e81]: Vue.js
+          - generic [ref=f1e86]: Node.js
+          - generic [ref=f1e91]: Django
+          - generic [ref=f1e97]: .NET
+          - generic [ref=f1e102]: MySQL
+          - generic [ref=f1e106]: SQL Server
+      - generic [ref=f1e114]:
+        - generic [ref=f1e115]:
+          - generic [ref=f1e116]: Sobre mí
+          - heading "Soluciones que se miden en resultados" [level=2] [ref=f1e117]
+          - generic [ref=f1e118]:
+            - generic [ref=f1e119]:
+              - generic [ref=f1e120]: Ubicación
+              - generic [ref=f1e125]: Ciudad de México
+            - generic [ref=f1e126]:
+              - generic [ref=f1e127]: Modalidad
+              - generic [ref=f1e132]: Remoto · Freelance
+            - generic [ref=f1e133]:
+              - generic [ref=f1e134]: Entregas
+              - generic [ref=f1e140]: Periódicas
+            - generic [ref=f1e141]:
+              - generic [ref=f1e142]: Enfoque
+              - generic [ref=f1e146]: Web Developer
+        - generic [ref=f1e147]:
+          - generic [ref=f1e148]: Trayectoria
+          - generic [ref=f1e149]:
+            - generic [ref=f1e150]:
+              - generic [ref=f1e151]: Jul 2025 — Actual
+              - generic [ref=f1e152]:
+                - generic [ref=f1e153]: Desarrollador Fullstack
+                - generic [ref=f1e154]: Grupo Salinas
+                - paragraph [ref=f1e155]: Automatización de cierre de tickets, portal de reportería con KPIs y microservicios de gestión.
+            - generic [ref=f1e156]:
+              - generic [ref=f1e157]: Sep 2023 — Jul 2025
+              - generic [ref=f1e158]:
+                - generic [ref=f1e159]: Ingeniero de Software
+                - generic [ref=f1e160]: Relative-IT
+                - paragraph [ref=f1e161]: Sistemas web con arquitecturas MVC/MVVM, bases de datos relacionales y servidores Linux.
+            - generic [ref=f1e162]:
+              - generic [ref=f1e163]: Ago 2022 — Mar 2023
+              - generic [ref=f1e164]:
+                - generic [ref=f1e165]: Becario
+                - generic [ref=f1e166]: DGTIC — UNAM
+                - paragraph [ref=f1e167]: Sistemas web institucionales, diseño de bases de datos y documentación de requerimientos.
+      - generic [ref=f1e169]:
+        - generic [ref=f1e171]:
+          - generic [ref=f1e172]: Servicios
+          - heading "Lo que puedo construir para ti" [level=2] [ref=f1e173]
+        - generic [ref=f1e174]:
+          - generic [ref=f1e175]:
+            - generic [ref=f1e180]: Desarrollo web fullstack
+            - paragraph [ref=f1e181]: Aplicaciones completas, de la base de datos a la interfaz.
+          - generic [ref=f1e182]:
+            - generic [ref=f1e186]: Automatización de procesos
+            - paragraph [ref=f1e187]: Rutinas que eliminan trabajo manual repetitivo.
+          - generic [ref=f1e188]:
+            - generic [ref=f1e193]: APIs e integraciones
+            - paragraph [ref=f1e194]: Servicios y middleware para conectar plataformas existentes.
+          - generic [ref=f1e195]:
+            - generic [ref=f1e201]: Datos y reportería
+            - paragraph [ref=f1e202]: Modelado, optimización y tableros de KPIs.
+          - generic [ref=f1e203]:
+            - generic [ref=f1e207]: Diseño responsivo y apps móviles
+            - paragraph [ref=f1e208]: Interfaces que funcionan en cualquier pantalla y aplicaciones móviles.
+      - generic [ref=f1e210]:
+        - generic [ref=f1e212]:
+          - generic [ref=f1e213]: Proyectos
+          - heading "Trabajo seleccionado" [level=2] [ref=f1e214]
+        - generic [ref=f1e215]:
+          - 'link "Captura del proyecto Cocina Chiapas Sitio para un restaurante de comida tradicional: menú de comida corrida y platillos fuertes, sección de eventos y formulario de cotización. HTML CSS JavaScript Ver proyecto →" [ref=f1e217] [cursor=pointer]':
+            - /url: https://cocina-chiapas-roan.netlify.app/
+            - generic [ref=f1e218]: Captura del proyecto
+            - generic [ref=f1e220]:
+              - generic [ref=f1e221]: Cocina Chiapas
+              - paragraph [ref=f1e222]: "Sitio para un restaurante de comida tradicional: menú de comida corrida y platillos fuertes, sección de eventos y formulario de cotización."
+              - generic [ref=f1e223]:
+                - generic [ref=f1e224]: HTML
+                - generic [ref=f1e225]: CSS
+                - generic [ref=f1e226]: JavaScript
+              - generic [ref=f1e227]: Ver proyecto →
+          - link "Captura del proyecto Administrador de pacientes Aplicación para registrar pacientes de una veterinaria, con validación de formulario y edición o eliminación de registros. React Tailwind CSS Ver proyecto →" [ref=f1e229] [cursor=pointer]:
+            - /url: https://admin-pacientes-roan.netlify.app/
+            - generic [ref=f1e230]: Captura del proyecto
+            - generic [ref=f1e232]:
+              - generic [ref=f1e233]: Administrador de pacientes
+              - paragraph [ref=f1e234]: Aplicación para registrar pacientes de una veterinaria, con validación de formulario y edición o eliminación de registros.
+              - generic [ref=f1e235]:
+                - generic [ref=f1e236]: React
+                - generic [ref=f1e237]: Tailwind CSS
+              - generic [ref=f1e238]: Ver proyecto →
+          - link "Captura del proyecto Blog de Café Blog con recetas y cursos de café, con secciones de inicio, nosotros, cursos y contacto. HTML CSS Ver proyecto →" [ref=f1e240] [cursor=pointer]:
+            - /url: https://coffee-blog-roan.netlify.app/
+            - generic [ref=f1e241]: Captura del proyecto
+            - generic [ref=f1e243]:
+              - generic [ref=f1e244]: Blog de Café
+              - paragraph [ref=f1e245]: Blog con recetas y cursos de café, con secciones de inicio, nosotros, cursos y contacto.
+              - generic [ref=f1e246]:
+                - generic [ref=f1e247]: HTML
+                - generic [ref=f1e248]: CSS
+              - generic [ref=f1e249]: Ver proyecto →
+          - link "Captura del proyecto Planificador de gastos Control de presupuesto con gráfica de avance, alta y edición de gastos y filtro por categoría. React JavaScript Ver proyecto →" [ref=f1e251] [cursor=pointer]:
+            - /url: https://admingastos-roan.netlify.app/
+            - generic [ref=f1e252]: Captura del proyecto
+            - generic [ref=f1e254]:
+              - generic [ref=f1e255]: Planificador de gastos
+              - paragraph [ref=f1e256]: Control de presupuesto con gráfica de avance, alta y edición de gastos y filtro por categoría.
+              - generic [ref=f1e257]:
+                - generic [ref=f1e258]: React
+                - generic [ref=f1e259]: JavaScript
+              - generic [ref=f1e260]: Ver proyecto →
+          - link "Captura del proyecto Invitación Ale & Ángel Invitación de boda digital con cuenta regresiva, historia, itinerario, código de vestimenta, mesa de regalos y confirmación de asistencia. HTML CSS JavaScript Ver proyecto →" [ref=f1e262] [cursor=pointer]:
+            - /url: https://invitacion-ale-angel.netlify.app/
+            - generic [ref=f1e263]: Captura del proyecto
+            - generic [ref=f1e265]:
+              - generic [ref=f1e266]: Invitación Ale & Ángel
+              - paragraph [ref=f1e267]: Invitación de boda digital con cuenta regresiva, historia, itinerario, código de vestimenta, mesa de regalos y confirmación de asistencia.
+              - generic [ref=f1e268]:
+                - generic [ref=f1e269]: HTML
+                - generic [ref=f1e270]: CSS
+                - generic [ref=f1e271]: JavaScript
+              - generic [ref=f1e272]: Ver proyecto →
+      - generic [ref=f1e274]:
+        - generic [ref=f1e275]:
+          - generic [ref=f1e276]:
+            - generic [ref=f1e277]: Blog
+            - heading "Notas de desarrollo" [level=2] [ref=f1e278]
+          - link "Ver todas las entradas →" [ref=f1e279] [cursor=pointer]:
+            - /url: /blog
+        - generic [ref=f1e280]:
+          - 'link "Automatización Ago 2026 Cómo diseñar una automatización que sí se pueda auditar Dejar que un proceso cierre casos por su cuenta exige más que reglas: registro de decisiones, reintentos controlados y una traza que cualquiera del equipo pueda revisar meses después." [ref=f1e281] [cursor=pointer]':
+            - /url: /blog/automatizacion-auditable
+            - generic [ref=f1e282]:
+              - generic [ref=f1e283]: Automatización
+              - generic [ref=f1e284]: Ago 2026
+            - generic [ref=f1e285]: Cómo diseñar una automatización que sí se pueda auditar
+            - paragraph [ref=f1e286]: "Dejar que un proceso cierre casos por su cuenta exige más que reglas: registro de decisiones, reintentos controlados y una traza que cualquiera del equipo pueda revisar meses después."
+          - link "Backend Jul 2026 Microservicios sin sobreingeniería en equipos pequeños Cuándo conviene separar un servicio y cuándo un módulo bien delimitado resuelve lo mismo con menos costo." [ref=f1e287] [cursor=pointer]:
+            - /url: /blog/microservicios-sin-sobreingenieria
+            - generic [ref=f1e288]:
+              - generic [ref=f1e289]: Backend
+              - generic [ref=f1e290]: Jul 2026
+            - generic [ref=f1e291]: Microservicios sin sobreingeniería en equipos pequeños
+            - paragraph [ref=f1e292]: Cuándo conviene separar un servicio y cuándo un módulo bien delimitado resuelve lo mismo con menos costo.
+      - generic [ref=f1e295]:
+        - generic [ref=f1e296]:
+          - generic [ref=f1e297]: Contacto
+          - heading "¿Tienes un proyecto en mente?" [level=2] [ref=f1e298]
+        - generic [ref=f1e300]:
+          - generic [ref=f1e301]:
+            - generic [ref=f1e302]: Nombre
+            - textbox "Nombre" [ref=f1e303]:
+              - /placeholder: Tu nombre
+          - generic [ref=f1e304]:
+            - generic [ref=f1e305]: Correo
+            - textbox "Correo" [ref=f1e306]:
+              - /placeholder: tucorreo@dominio.com
+          - generic [ref=f1e307]:
+            - generic [ref=f1e308]: Mensaje
+            - textbox "Mensaje" [ref=f1e309]:
+              - /placeholder: Describe brevemente tu proyecto
+          - button "Enviar mensaje" [ref=f1e310] [cursor=pointer]
+    - contentinfo [ref=f1e311]:
+      - generic [ref=f1e312]:
+        - generic [ref=f1e313]: © 2026 Angel Rogelio Argonza Roblero
+        - generic [ref=f1e314]:
+          - link "LinkedIn" [ref=f1e315] [cursor=pointer]:
+            - /url: https://linkedin.com/in/argonzaroan
+          - link "GitHub" [ref=f1e316] [cursor=pointer]:
+            - /url: https://github.com/ArgonzaAr
+          - link "Volver arriba" [ref=f1e317] [cursor=pointer]:
+            - /url: /#home
+  - generic [ref=f1e318]:
+    - generic "Toggle devtools panel" [ref=f1e319] [cursor=pointer]
+    - generic "Toggle Component Inspector" [ref=f1e325] [cursor=pointer]

@@ -1,0 +1,70 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "Planificador de Gastos" [level=1] [ref=e5]
+    - generic [ref=e12]:
+      - paragraph [ref=e14]: 41%
+      - generic [ref=e19]:
+        - button "Resetrear presupuesto" [ref=e20]
+        - paragraph [ref=e21]: "Presupuesto: $15,000.00"
+        - paragraph [ref=e22]: "Disponible: $6,251.00"
+        - paragraph [ref=e23]: "Gastado: $8,749.00"
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: Filtrar Gastos
+      - combobox "Filtrar Gastos" [ref=e28]:
+        - option "-- Seleccione ---" [selected]
+        - option "Ahorro"
+        - option "Comida"
+        - option "Casa"
+        - option "Gastos Varios"
+        - option "Ocio"
+        - option "Salud"
+        - option "Suscripciones"
+    - generic [ref=e29]:
+      - heading "Gastos" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "icono gasto" [ref=e51]
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: casa
+            - paragraph [ref=e54] [cursor=pointer]: Renta del departamento
+            - paragraph [ref=e55]: 29 de septiembre de 2026
+        - paragraph [ref=e56]: $6,500.00
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img "icono gasto" [ref=e74]
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: comida
+            - paragraph [ref=e77] [cursor=pointer]: Súper semanal
+            - paragraph [ref=e78]: 29 de septiembre de 2026
+        - paragraph [ref=e79]: $1,850.00
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - img "icono gasto" [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: suscripciones
+            - paragraph [ref=e100] [cursor=pointer]: Netflix y Spotify
+            - paragraph [ref=e101]: 29 de septiembre de 2026
+        - paragraph [ref=e102]: $399.00
+    - img "icono nuevo gasto" [ref=e32] [cursor=pointer]
+    - generic [ref=e106]:
+      - generic [ref=e107]: añadir gasto
+      - generic [ref=e108]:
+        - generic [ref=e109]: Tipo Gasto
+        - textbox "Tipo Gasto" [ref=e110]:
+          - /placeholder: Ingrese un tipo de gasto
+      - generic [ref=e111]:
+        - generic [ref=e112]: Cantidad de gasto
+        - spinbutton "Cantidad de gasto" [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e115]: "Categoría:"
+        - combobox [ref=e116]:
+          - option "-- Seleccione ---" [selected]
+          - option "Ahorro"
+          - option "Comida"
+          - option "Casa"
+          - option "Gastos Varios"
+          - option "Ocio"
+          - option "Salud"
+          - option "Suscripciones"
+      - button "Añadir Gasto" [ref=e117] [cursor=pointer]

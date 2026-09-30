@@ -1,0 +1,73 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - heading "Planificador de Gastos" [level=1] [ref=f1e5]
+    - generic [ref=f1e7]:
+      - paragraph [ref=f1e9]: 20%
+      - generic [ref=f1e14]:
+        - button "Resetrear presupuesto" [ref=f1e15]
+        - paragraph [ref=f1e16]: "Presupuesto: $15,000.00"
+        - paragraph [ref=f1e17]: "Disponible: $3,021.00"
+        - paragraph [ref=f1e18]: "Gastado: $11,979.00"
+  - main [ref=f1e19]:
+    - generic [ref=f1e21]:
+      - generic [ref=f1e22]: Filtrar Gastos
+      - combobox "Filtrar Gastos" [ref=f1e23]:
+        - option "-- Seleccione ---" [selected]
+        - option "Ahorro"
+        - option "Comida"
+        - option "Casa"
+        - option "Gastos Varios"
+        - option "Ocio"
+        - option "Salud"
+        - option "Suscripciones"
+    - generic [ref=f1e24]:
+      - heading "Gastos" [level=2] [ref=f1e25]
+      - generic [ref=f1e26]:
+        - generic [ref=f1e27]:
+          - img "icono gasto" [ref=f1e28]
+          - generic [ref=f1e29]:
+            - paragraph [ref=f1e30]: casa
+            - paragraph [ref=f1e31] [cursor=pointer]: Renta del departamento
+            - paragraph [ref=f1e32]: 29 de septiembre de 2026
+        - paragraph [ref=f1e33]: $6,500.00
+      - generic [ref=f1e34]:
+        - generic [ref=f1e35]:
+          - img "icono gasto" [ref=f1e36]
+          - generic [ref=f1e37]:
+            - paragraph [ref=f1e38]: comida
+            - paragraph [ref=f1e39] [cursor=pointer]: Súper semanal
+            - paragraph [ref=f1e40]: 29 de septiembre de 2026
+        - paragraph [ref=f1e41]: $1,850.00
+      - generic [ref=f1e42]:
+        - generic [ref=f1e43]:
+          - img "icono gasto" [ref=f1e44]
+          - generic [ref=f1e45]:
+            - paragraph [ref=f1e46]: suscripciones
+            - paragraph [ref=f1e47] [cursor=pointer]: Netflix y Spotify
+            - paragraph [ref=f1e48]: 29 de septiembre de 2026
+        - paragraph [ref=f1e49]: $399.00
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]:
+          - img "icono gasto" [ref=f1e52]
+          - generic [ref=f1e53]:
+            - paragraph [ref=f1e54]: ocio
+            - paragraph [ref=f1e55] [cursor=pointer]: Cine con amigos
+            - paragraph [ref=f1e56]: 29 de septiembre de 2026
+        - paragraph [ref=f1e57]: $480.00
+      - generic [ref=f1e58]:
+        - generic [ref=f1e59]:
+          - img "icono gasto" [ref=f1e60]
+          - generic [ref=f1e61]:
+            - paragraph [ref=f1e62]: salud
+            - paragraph [ref=f1e63] [cursor=pointer]: Consulta médica
+            - paragraph [ref=f1e64]: 29 de septiembre de 2026
+        - paragraph [ref=f1e65]: $750.00
+      - generic [ref=f1e66]:
+        - generic [ref=f1e67]:
+          - img "icono gasto" [ref=f1e68]
+          - generic [ref=f1e69]:
+            - paragraph [ref=f1e70]: ahorro
+            - paragraph [ref=f1e71] [cursor=pointer]: Fondo de emergencia
+            - paragraph [ref=f1e72]: 29 de septiembre de 2026
+        - paragraph [ref=f1e73]: $2,000.00
+    - img "icono nuevo gasto" [ref=f1e75] [cursor=pointer]

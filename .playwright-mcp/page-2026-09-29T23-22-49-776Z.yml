@@ -1,0 +1,72 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - navigation [ref=f8e3]:
+      - generic [ref=f8e5]:
+        - link "Cocina Chiapas Cocina Chiapas Sabores Tradicionales" [ref=f8e6] [cursor=pointer]:
+          - /url: /
+          - img "Cocina Chiapas" [ref=f8e8]
+          - generic [ref=f8e9]:
+            - generic [ref=f8e10]: Cocina Chiapas
+            - generic [ref=f8e11]: Sabores Tradicionales
+        - button "Menú" [ref=f8e12] [cursor=pointer]
+    - main [ref=f8e14]:
+      - generic [ref=f8e18]:
+        - generic [ref=f8e19]: Servicios de Catering
+        - heading "Catering Chiapas" [level=1] [ref=f8e28]
+        - paragraph [ref=f8e29]: Llevamos los auténticos sabores de Chiapas a tu evento especial
+      - generic [ref=f8e30]:
+        - generic [ref=f8e31]:
+          - generic [ref=f8e32]:
+            - heading "Bodas" [level=3] [ref=f8e37]
+            - paragraph [ref=f8e38]: Celebra tu gran día con un menú tradicional chiapaneco
+          - generic [ref=f8e39]:
+            - heading "Eventos Corporativos" [level=3] [ref=f8e47]
+            - paragraph [ref=f8e48]: Reuniones de trabajo, conferencias y celebraciones de empresa
+          - generic [ref=f8e49]:
+            - heading "Fiestas Privadas" [level=3] [ref=f8e55]
+            - paragraph [ref=f8e56]: Cumpleaños, XV años y reuniones familiares
+        - generic [ref=f8e58]:
+          - generic [ref=f8e59]:
+            - heading "Solicita una Cotización" [level=2] [ref=f8e60]
+            - paragraph [ref=f8e61]: Completa el formulario y nos pondremos en contacto contigo
+          - generic [ref=f8e62]:
+            - generic [ref=f8e63]:
+              - generic [ref=f8e64]:
+                - generic [ref=f8e65]: Nombre completo
+                - textbox "Tu nombre" [ref=f8e66]
+              - generic [ref=f8e67]:
+                - generic [ref=f8e68]: Correo electrónico
+                - textbox "tu@email.com" [ref=f8e69]
+            - generic [ref=f8e70]:
+              - generic [ref=f8e71]:
+                - generic [ref=f8e72]: Teléfono
+                - textbox "Tu teléfono" [ref=f8e73]
+              - generic [ref=f8e74]:
+                - generic [ref=f8e75]: Número de invitados
+                - spinbutton "Cantidad" [ref=f8e76]
+            - generic [ref=f8e77]:
+              - generic [ref=f8e78]:
+                - generic [ref=f8e79]: Tipo de evento
+                - combobox [ref=f8e80]:
+                  - option "Selecciona..." [selected]
+                  - option "Boda"
+                  - option "Evento Corporativo"
+                  - option "Fiesta Privada"
+                  - option "Otro"
+              - generic [ref=f8e81]:
+                - generic [ref=f8e82]: Fecha del evento
+                - textbox [ref=f8e83]
+            - generic [ref=f8e84]:
+              - generic [ref=f8e85]: Mensaje adicional
+              - textbox "Cuéntanos más sobre tu evento..." [ref=f8e86]
+            - button "Enviar Solicitud" [ref=f8e87] [cursor=pointer]
+    - contentinfo [ref=f8e91]:
+      - generic [ref=f8e93]:
+        - generic [ref=f8e111]:
+          - text: Cocina Chiapas
+          - paragraph [ref=f8e112]: Sabores Tradicionales
+        - paragraph [ref=f8e113]: © 2024 Cocina Chiapas. Todos los derechos reservados.
+  - alert [ref=f8e114]
+  - iframe [ref=f8e115]:
+    - button "Powered by Netlify — build your own site" [ref=f9e3] [cursor=pointer]:
+      - generic [ref=f9e13]: Powered by Netlify

@@ -1,25 +1,88 @@
 import type { Project } from '@/types'
 
+/** Construye las rutas públicas de las capturas de `public/project_img/<id>/`. */
+function images(id: string, names: string[]): string[] {
+  return names.map((name) => `/project_img/${id}/${name}.webp`)
+}
+
 export const projects: Project[] = [
   {
-    id: 'automatizacion-cierre-tickets',
-    title: 'Automatización de cierre de tickets',
+    id: 'cocina-chiapas',
+    title: 'Cocina Chiapas',
     description:
-      'Servicio nocturno que analiza cada caso y decide su cierre. Redujo 56% la carga operativa del equipo.',
-    tags: ['Python', 'Microservicios', 'SQL Server'],
+      'Sitio para un restaurante de comida tradicional: menú de comida corrida y platillos fuertes, sección de eventos y formulario de cotización.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    url: 'https://cocina-chiapas-roan.netlify.app/',
+    images: images('cocina-chiapas', [
+      '01-hero-desktop',
+      '02-comida-corrida-desktop',
+      '03-platillos-fuertes-desktop',
+      '04-menu-completo-desktop',
+      '05-eventos-hero-desktop',
+      '06-cotizacion-desktop',
+      '07-eventos-completo-desktop',
+    ]),
   },
   {
-    id: 'portal-reporteria-kpis',
-    title: 'Portal de reportería y KPIs',
+    id: 'admin-pacientes',
+    title: 'Administrador de pacientes',
     description:
-      'Estadísticas e indicadores generados de forma automática. Redujo más de 70% el tiempo de obtención de reportes.',
-    tags: ['Vue.js', 'Node.js', 'PostgreSQL'],
+      'Aplicación para registrar pacientes de una veterinaria, con validación de formulario y edición o eliminación de registros.',
+    tags: ['React', 'Tailwind CSS'],
+    url: 'https://admin-pacientes-roan.netlify.app/',
+    images: images('admin-pacientes', [
+      '01-estado-inicial-desktop',
+      '02-validacion-desktop',
+      '03-formulario-lleno-desktop',
+      '04-pacientes-registrados-desktop',
+      '04-pacientes-registrados-full-desktop',
+    ]),
   },
   {
-    id: 'administracion-cv',
-    title: 'Sistema de administración de CV',
+    id: 'coffee-blog',
+    title: 'Blog de Café',
     description:
-      'Gestión de currículums con generación de documentos en PDF y Word y control de usuarios.',
-    tags: ['PHP', 'MySQL', 'DGTIC — UNAM'],
+      'Blog con recetas y cursos de café, con secciones de inicio, nosotros, cursos y contacto.',
+    tags: ['HTML', 'CSS'],
+    url: 'https://coffee-blog-roan.netlify.app/',
+    images: images('coffee-blog', [
+      '01-inicio-hero-desktop',
+      '02-inicio-completo-desktop',
+      '03-nosotros-desktop',
+      '04-cursos-desktop',
+      '05-contacto-desktop',
+    ]),
+  },
+  {
+    id: 'admin-gastos',
+    title: 'Planificador de gastos',
+    description:
+      'Control de presupuesto con gráfica de avance, alta y edición de gastos y filtro por categoría.',
+    tags: ['React', 'JavaScript'],
+    url: 'https://admingastos-roan.netlify.app/',
+    images: images('admin-gastos', [
+      '01-presupuesto-inicial-desktop',
+      '02-dashboard-desktop',
+      '03-modal-nuevo-gasto-desktop',
+      '04-filtro-categoria-desktop',
+      '05-editar-gasto-desktop',
+    ]),
+  },
+  {
+    id: 'invitacion-ale-angel',
+    title: 'Invitación Ale & Ángel',
+    description:
+      'Invitación de boda digital con cuenta regresiva, historia, itinerario, código de vestimenta, mesa de regalos y confirmación de asistencia.',
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    url: 'https://invitacion-ale-angel.netlify.app/',
+    images: images('invitacion-ale-angel', [
+      '01-portada-desktop',
+      '02-historia-desktop',
+      '03-horario-desktop',
+      '04-itinerario-desktop',
+      '05-vestimenta-desktop',
+      '06-regalos-desktop',
+      '07-confirmacion-desktop',
+    ]),
   },
 ]

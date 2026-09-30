@@ -1,0 +1,31 @@
+- generic [ref=e3]:
+  - heading "Seguimiento de pacientes Veterinaria" [level=1] [ref=e4]
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - heading "Seguimiento Pacientes" [level=2] [ref=e7]
+      - paragraph [ref=e8]: Añade pacientes y Adminístralos
+      - generic [ref=e30]: Todos los campos deben ser llenados
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: Nombre Mascota
+          - textbox "Nombre Mascota" [ref=e12]:
+            - /placeholder: Nombre de la mascota
+        - generic [ref=e13]:
+          - generic [ref=e14]: Nombre Propietario
+          - textbox "Nombre Propietario" [ref=e15]:
+            - /placeholder: Nombre del propietario
+        - generic [ref=e16]:
+          - generic [ref=e17]: E-mail Propietario
+          - textbox "E-mail Propietario" [ref=e18]:
+            - /placeholder: E-mail del propietario
+        - generic [ref=e19]:
+          - generic [ref=e20]: Fecha Alta
+          - textbox "Fecha Alta" [ref=e21]
+        - generic [ref=e22]:
+          - generic [ref=e23]: Síntomas
+          - textbox "Síntomas" [ref=e24]:
+            - /placeholder: Describe los sintomas
+        - button "Registrar Paciente" [active] [ref=e25] [cursor=pointer]
+    - generic [ref=e26]:
+      - heading "Administrar pacientes" [level=3] [ref=e27]
+      - paragraph [ref=e28]: No hay pacientes registrados

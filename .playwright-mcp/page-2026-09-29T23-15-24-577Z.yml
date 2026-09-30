@@ -1,0 +1,7 @@
+- banner [ref=e4]:
+  - heading "Planificador de Gastos" [level=1] [ref=e5]
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: Definir presupuesto
+      - spinbutton "Definir presupuesto" [ref=e10]: "0"
+    - button "Definir" [ref=e11]

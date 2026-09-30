@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Angel Argonza" [ref=e5] [cursor=pointer]:
+        - /url: /#home
+      - navigation [ref=e13]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /#home
+        - link "Sobre mí" [ref=e15] [cursor=pointer]:
+          - /url: /#sobre-mi
+        - link "Servicios" [ref=e16] [cursor=pointer]:
+          - /url: /#servicios
+        - link "Proyectos" [ref=e17] [cursor=pointer]:
+          - /url: /#proyectos
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: /blog
+        - generic [ref=e19] [cursor=pointer]: Trabajemos juntos
+  - generic [ref=e20]:
+    - generic "Toggle devtools panel" [ref=e21] [cursor=pointer]
+    - generic "Toggle Component Inspector" [ref=e27] [cursor=pointer]

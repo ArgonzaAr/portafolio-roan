@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "Planificador de Gastos" [level=1] [ref=e5]
+    - generic [ref=e12]:
+      - paragraph [ref=e14]: 33%
+      - generic [ref=e19]:
+        - button "Resetrear presupuesto" [ref=e20]
+        - paragraph [ref=e21]: "Presupuesto: $15,000.00"
+        - paragraph [ref=e22]: "Disponible: $5,021.00"
+        - paragraph [ref=e23]: "Gastado: $9,979.00"
+  - main [ref=e24]:
+    - generic [ref=e26]:
+      - generic [ref=e27]: Filtrar Gastos
+      - combobox "Filtrar Gastos" [ref=e28]:
+        - option "-- Seleccione ---" [selected]
+        - option "Ahorro"
+        - option "Comida"
+        - option "Casa"
+        - option "Gastos Varios"
+        - option "Ocio"
+        - option "Salud"
+        - option "Suscripciones"
+    - generic [ref=e29]:
+      - heading "Gastos" [level=2] [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "icono gasto" [ref=e51]
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: casa
+            - paragraph [ref=e54] [cursor=pointer]: Renta del departamento
+            - paragraph [ref=e55]: 29 de septiembre de 2026
+        - paragraph [ref=e56]: $6,500.00
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img "icono gasto" [ref=e74]
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: comida
+            - paragraph [ref=e77] [cursor=pointer]: Súper semanal
+            - paragraph [ref=e78]: 29 de septiembre de 2026
+        - paragraph [ref=e79]: $1,850.00
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - img "icono gasto" [ref=e97]
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: suscripciones
+            - paragraph [ref=e100] [cursor=pointer]: Netflix y Spotify
+            - paragraph [ref=e101]: 29 de septiembre de 2026
+        - paragraph [ref=e102]: $399.00
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - img "icono gasto" [ref=e120]
+          - generic [ref=e121]:
+            - paragraph [ref=e122]: ocio
+            - paragraph [ref=e123] [cursor=pointer]: Cine con amigos
+            - paragraph [ref=e124]: 29 de septiembre de 2026
+        - paragraph [ref=e125]: $480.00
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - img "icono gasto" [ref=e143]
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: salud
+            - paragraph [ref=e146] [cursor=pointer]: Consulta médica
+            - paragraph [ref=e147]: 29 de septiembre de 2026
+        - paragraph [ref=e148]: $750.00
+    - img "icono nuevo gasto" [ref=e32] [cursor=pointer]
+    - generic [ref=e152]:
+      - generic [ref=e153]: añadir gasto
+      - generic [ref=e154]:
+        - generic [ref=e155]: Tipo Gasto
+        - textbox "Tipo Gasto" [ref=e156]:
+          - /placeholder: Ingrese un tipo de gasto
+      - generic [ref=e157]:
+        - generic [ref=e158]: Cantidad de gasto
+        - spinbutton "Cantidad de gasto" [ref=e159]
+      - generic [ref=e160]:
+        - generic [ref=e161]: "Categoría:"
+        - combobox [ref=e162]:
+          - option "-- Seleccione ---" [selected]
+          - option "Ahorro"
+          - option "Comida"
+          - option "Casa"
+          - option "Gastos Varios"
+          - option "Ocio"
+          - option "Salud"
+          - option "Suscripciones"
+      - button "Añadir Gasto" [ref=e163] [cursor=pointer]

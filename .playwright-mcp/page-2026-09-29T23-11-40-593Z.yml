@@ -1,0 +1,260 @@
+- generic [ref=e2]:
+  - button "Reproducir música" [ref=e3] [cursor=pointer]
+  - navigation "Navegación principal":
+    - link "Inicio":
+      - /url: "#inicio"
+      - text: A & A
+    - list:
+      - listitem:
+        - link "Inicio":
+          - /url: "#inicio"
+      - listitem:
+        - link "Historia":
+          - /url: "#historia"
+      - listitem:
+        - link "Padres":
+          - /url: "#padres"
+      - listitem:
+        - link "Lugar":
+          - /url: "#lugar"
+      - listitem:
+        - link "Horario":
+          - /url: "#horario"
+      - listitem:
+        - link "Itinerario":
+          - /url: "#itinerario"
+      - listitem:
+        - link "Vestimenta":
+          - /url: "#vestimenta"
+      - listitem:
+        - link "Regalos":
+          - /url: "#regalos"
+      - listitem:
+        - link "Confirmar":
+          - /url: "#confirmacion"
+  - list [ref=e7]:
+    - listitem [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: "#inicio"
+        - text: Inicio
+    - listitem [ref=e10]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: "#historia"
+        - text: Historia
+    - listitem [ref=e12]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: "#padres"
+        - text: Padres
+    - listitem [ref=e14]:
+      - link [ref=e15] [cursor=pointer]:
+        - /url: "#lugar"
+        - text: Lugar
+    - listitem [ref=e16]:
+      - link [ref=e17] [cursor=pointer]:
+        - /url: "#horario"
+        - text: Horario
+    - listitem [ref=e18]:
+      - link [ref=e19] [cursor=pointer]:
+        - /url: "#itinerario"
+        - text: Itinerario
+    - listitem [ref=e20]:
+      - link [ref=e21] [cursor=pointer]:
+        - /url: "#vestimenta"
+        - text: Vestimenta
+    - listitem [ref=e22]:
+      - link [ref=e23] [cursor=pointer]:
+        - /url: "#regalos"
+        - text: Regalos
+    - listitem [ref=e24]:
+      - link [ref=e25] [cursor=pointer]:
+        - /url: "#confirmacion"
+        - text: Confirmar
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: ✿Los invitamos a celebrar✿
+        - heading "Alexandra & Angel Rogelio" [level=1] [ref=e31]:
+          - text: Alexandra
+          - generic [ref=e32]: "&"
+          - text: Angel Rogelio
+        - paragraph [ref=e33]: Alexandra Rangel Olvera & Angel Rogelio Argonza Roblero
+        - paragraph [ref=e34]: Sábado · 13 de Junio · 2026
+        - generic [ref=e35]:
+          - generic [ref=e36]: ✦
+          - generic "Cuenta regresiva para la boda" [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: "00"
+              - generic [ref=e41]: días
+            - generic [ref=e42]:
+              - generic [ref=e43]: "00"
+              - generic [ref=e44]: horas
+            - generic [ref=e45]:
+              - generic [ref=e46]: "00"
+              - generic [ref=e47]: minutos
+            - generic [ref=e48]:
+              - generic [ref=e49]: "00"
+              - generic [ref=e50]: segundos
+      - generic [ref=e52]: Scroll
+    - generic [ref=e55]:
+      - paragraph [ref=e56]: ❁Nuestra Historia❁
+      - heading "El camino hasta aquí" [level=2] [ref=e57]
+      - list [ref=e58]:
+        - listitem [ref=e59]:
+          - generic [ref=e61]:
+            - img "Primer encuentro" [ref=e63]
+            - paragraph [ref=e64]: Primer encuentro
+            - heading "El comienzo de todo" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Entre clases y pasillos universitarios nació algo que ninguno de los dos esperaba. Fue al final de esa etapa cuando nuestros caminos se cruzaron y comenzó nuestra historia.
+        - listitem [ref=e67]:
+          - generic [ref=e69]:
+            - img "Primera aventura" [ref=e71]
+            - paragraph [ref=e72]: Primera aventura
+            - heading "El viaje que nos marcó" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Toluca fue el escenario de uno de nuestros primeros recuerdos juntos. Luces, buenos postres y la certeza de que queríamos seguir descubriendo el mundo el uno al lado del otro.
+        - listitem [ref=e75]:
+          - generic [ref=e77]:
+            - img "Nuestro amor" [ref=e79]
+            - paragraph [ref=e80]: Nuestro amor
+            - heading "Lo que nos une" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Cada momento juntos es único. Hemos aprendido a crecer, a escucharnos y a amarnos más con cada día que pasa.
+        - listitem [ref=e83]:
+          - generic [ref=e85]:
+            - img "Para siempre" [ref=e87]
+            - paragraph [ref=e88]: Para siempre
+            - heading "La historia continúa" [level=3] [ref=e89]
+            - paragraph [ref=e90]: "Hoy damos el paso más importante: consolidar nuestro amor en un para siempre. Gracias por ser parte de este capítulo."
+    - generic [ref=e92]:
+      - paragraph [ref=e93]: ❁Nuestros Padres❁
+      - heading "Con quienes hemos crecido" [level=2] [ref=e94]
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - paragraph [ref=e97]: Ella
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: Madre
+            - paragraph [ref=e100]: Ana Lilia Olvera Huesca
+          - generic [ref=e101]:
+            - paragraph [ref=e102]: Padre
+            - paragraph [ref=e103]: Pedro Rangel
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: Él
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: Madre
+            - paragraph [ref=e109]: Avilia Rosalva Roblero Morales
+          - generic [ref=e110]:
+            - paragraph [ref=e111]: Padre
+            - paragraph [ref=e112]: Rogelio Argonza Moreno
+    - generic [ref=e114]:
+      - paragraph [ref=e115]: ❁Lugar del Evento❁
+      - heading "Dónde nos encontramos" [level=2] [ref=e116]
+      - generic [ref=e117]:
+        - paragraph [ref=e118]: Lugar del evento
+        - paragraph [ref=e119]: Calle Hidalgo No. 159, Col. San Pablo Tepetlapa, CP. 04620, Coyoacán
+        - paragraph [ref=e120]: El lugar del evento no cuenta con estacionamiento propio. Al final de esta sección encontrarás dos opciones de estacionamiento sobre la calle en zonas seguras cercanas.
+      - generic [ref=e121]:
+        - iframe [ref=e123]
+        - link "Abrir en Google Maps" [ref=e125] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=Calle+Hidalgo+No+159+Col+San+Pablo+Tepetlapa+CP+04620+Coyoacan+CDMX+Mexico
+      - generic [ref=e126]:
+        - paragraph [ref=e127]: Estacionamiento
+        - paragraph [ref=e128]: Opciones disponibles cerca del lugar
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]: Opción 1
+            - paragraph [ref=e132]: Suchil, El Rosario, Coyoacán, 04380 Ciudad de México, CDMX
+            - paragraph [ref=e133]: Estacionamiento sobre la calle — zona segura.
+            - link "Ver en Maps" [ref=e134] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Suchil,+El+Rosario,+Coyoacán,+04380+Ciudad+de+México,+CDMX
+          - generic [ref=e135]:
+            - generic [ref=e136]: Opción 2
+            - paragraph [ref=e137]: Suchil, El Rosario, Coyoacán, 04380 Ciudad de México, CDMX
+            - paragraph [ref=e138]: Estacionamiento sobre la calle — zona segura.
+            - link "Ver en Maps" [ref=e139] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Suchil,+El+Rosario,+Coyoacán,+04380+Ciudad+de+México,+CDMX
+    - generic [ref=e141]:
+      - paragraph [ref=e142]: ❁Horario❁
+      - heading "El día de nuestra boda" [level=2] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - paragraph [ref=e147]: 05 pm
+          - paragraph [ref=e148]: Ceremonia
+        - generic [ref=e149]:
+          - paragraph [ref=e151]: 06 pm
+          - paragraph [ref=e152]: Comida
+        - generic [ref=e153]:
+          - paragraph [ref=e155]: 08 pm
+          - paragraph [ref=e156]: Fiesta
+        - generic [ref=e157]:
+          - paragraph [ref=e159]: ∞
+          - paragraph [ref=e160]: Cierre
+    - generic [ref=e162]:
+      - paragraph [ref=e163]: ❁Itinerario❁
+      - heading "Momento a momento" [level=2] [ref=e164]
+      - list "Itinerario de la boda" [ref=e165]:
+        - listitem [ref=e166]:
+          - generic [aria-hidden] [ref=e167]: ◇
+          - generic [ref=e168]: 04:30 pm
+          - generic [ref=e169]: Recibimiento de invitados
+          - generic [ref=e170]: Te pedimos llegar a tiempo para disfrutar de la ceremonia.
+        - listitem [ref=e171]:
+          - generic [aria-hidden] [ref=e172]: ◇
+          - generic [ref=e173]: 05:00 pm
+          - generic [ref=e174]: Ceremonia
+          - generic [ref=e175]: Les pedimos llegar con anticipación para acomodarse con calma.
+        - listitem [ref=e176]:
+          - generic [aria-hidden] [ref=e177]: ◇
+          - generic [ref=e178]: 06:00 pm
+          - generic [ref=e179]: Comida
+          - generic [ref=e180]: Buffet de guisados.
+        - listitem [ref=e181]:
+          - generic [aria-hidden] [ref=e182]: ◇
+          - generic [ref=e183]: 08:00 pm
+          - generic [ref=e184]: Fiesta
+          - generic [ref=e185]: Pista de baile abierta toda la noche.
+        - listitem [ref=e186]:
+          - generic [aria-hidden] [ref=e187]: ◇
+          - generic [ref=e188]: ∞
+          - generic [ref=e189]: Cierre
+          - generic [ref=e190]: Nos despedimos con gratitud, música y mucho amor.
+    - generic [ref=e192]:
+      - paragraph [ref=e193]: ❁Dress Code❁
+      - heading "Código de vestimenta" [level=2] [ref=e194]
+      - paragraph [ref=e195]: Casual Formal
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - paragraph [ref=e203]: Damas
+          - paragraph [ref=e204]: Vestido o conjunto en tonos neutros, pasteles o colores suaves. Tacón o calzado cómodo bienvenido.
+        - generic [ref=e205]:
+          - paragraph [ref=e214]: Caballeros
+          - paragraph [ref=e215]: Pantalón de vestir, camisa y saco. La corbata es opcional.
+        - generic [ref=e216]:
+          - paragraph [ref=e221]: Por favor evitar
+          - paragraph [ref=e222]: Ropa deportiva, mezclilla y colores muy llamativos. Blanco y beige reservados para los novios.
+    - generic [ref=e224]:
+      - paragraph [ref=e225]: ❁Mesa de Regalos❁
+      - heading "Tu presencia es nuestro mayor regalo" [level=2] [ref=e226]
+      - paragraph [ref=e227]: Si deseas hacernos un obsequio, aquí encontrarás nuestras opciones.
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - generic [aria-hidden] [ref=e230]: ◇
+          - paragraph [ref=e231]: Liverpool
+          - paragraph [ref=e232]: Mesa de regalos en tienda y en línea
+          - link "Ver mesa de regalos" [ref=e233] [cursor=pointer]:
+            - /url: https://mesaderegalos.liverpool.com.mx/milistaderegalos/52002634
+        - generic [ref=e234]:
+          - generic [aria-hidden] [ref=e235]: ◇
+          - paragraph [ref=e236]: BBVA
+          - paragraph [ref=e237]: Transferencia o depósito a cuenta
+          - generic [ref=e238]: 4152 3145 0320 8376
+          - button "Copiar número" [ref=e239] [cursor=pointer]
+    - generic [ref=e242]:
+      - paragraph [ref=e243]: ❁Formulario❁
+      - heading "Confirma tu asistencia" [level=2] [ref=e244]
+      - generic [ref=e246]:
+        - paragraph [ref=e247]: ✿
+        - paragraph [ref=e248]: Período de confirmación cerrado
+        - paragraph [ref=e249]: El plazo para confirmar asistencia ha concluido. Agradecemos profundamente tu interés y cariño. Si tienes alguna duda, con gusto podemos atenderte de manera personal. ¡Nos llena de alegría contar con personas tan especiales en nuestra vida!
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: Alexandra & Angel Rogelio
+      - paragraph [ref=e252]: 13 · Junio · 2026
+      - generic [ref=e253]: ✦
+      - paragraph [ref=e255]: Hecho con amor para quienes más queremos
