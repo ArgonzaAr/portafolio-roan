@@ -5,7 +5,6 @@ import TechIcon from './TechIcon.vue'
 const technologies = [
   'JavaScript',
   'Python',
-  'C#',
   'PHP',
   'Vue.js',
   'Node.js',

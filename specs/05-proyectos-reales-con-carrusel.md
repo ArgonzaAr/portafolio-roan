@@ -1,6 +1,6 @@
 # SPEC 05 — Proyectos reales con carrusel de capturas
 
-> **Estado:** Aprobado
+> **Estado:** Implementado
 > **Depende de:** SPEC 02, SPEC 03, SPEC 04
 > **Fecha:** 2026-09-29
 > **Objetivo:** Reemplazar los 3 proyectos de ejemplo por los 5 proyectos reales con liga, y convertir el placeholder de cada tarjeta en un carrusel de capturas que se activa (con elevación de la tarjeta) al pasar el mouse en escritorio o al quedar la tarjeta en el centro de la pantalla en dispositivos táctiles.

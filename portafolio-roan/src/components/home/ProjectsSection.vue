@@ -34,7 +34,7 @@ onUnmounted(() => observer?.disconnect())
 </script>
 
 <template>
-  <SectionWrapper id="proyectos" eyebrow="Proyectos" title="Trabajo seleccionado">
+  <SectionWrapper id="proyectos" eyebrow="Proyectos" title="Mi Trabajo">
     <div class="grid grid-cols-[minmax(0,1fr)] gap-[22px] tablet:grid-cols-2 desk:grid-cols-3">
       <!-- v-reveal va en el envoltorio: la tarjeta interior usa su propio transform al elevarse -->
       <div

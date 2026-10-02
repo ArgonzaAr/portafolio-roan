@@ -6,7 +6,7 @@ const facts = [
   { icon: 'pin', label: 'Ubicación', value: 'Ciudad de México' },
   { icon: 'monitor', label: 'Modalidad', value: 'Remoto · Freelance' },
   { icon: 'calendar', label: 'Entregas', value: 'Periódicas' },
-  { icon: 'code', label: 'Enfoque', value: 'Web Developer' },
+  { icon: 'code', label: 'Enfoque', value: 'Web App Developer' },
 ]
 
 const timeline = [
