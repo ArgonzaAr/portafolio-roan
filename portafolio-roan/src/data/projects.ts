@@ -7,6 +7,22 @@ function images(id: string, names: string[]): string[] {
 
 export const projects: Project[] = [
   {
+    id: 'arcade-vault',
+    title: 'Arcade Vault',
+    description:
+      'Portal retro de juegos arcade clásicos para jugar en el navegador, con biblioteca filtrable, puntuaciones guardadas y salón de la fama por juego.',
+    tags: ['Next.js', 'React', 'Supabase'],
+    url: 'https://arcade-vault-ebon.vercel.app/',
+    images: images('arcade-vault', [
+      '01-hero-desktop',
+      '02-biblioteca-desktop',
+      '03-detalle-arkanoid-desktop',
+      '04-partida-arkanoid-desktop',
+      '05-fin-del-juego-desktop',
+      '06-salon-de-la-fama-desktop',
+    ]),
+  },
+  {
     id: 'cocina-chiapas',
     title: 'Cocina Chiapas',
     description:
